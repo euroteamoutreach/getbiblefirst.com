@@ -1,2 +1,11 @@
+%section.nav-transparent{role: "banner"}
+  .navigation-wrapper
+    = link_to "/", class: "logo" do
+      = inline_svg "bible-first-logo-mini-blue.svg", class: "svg-logo"
+    %a#js-mobile-menu-tra.navigation-menu-button{href: "javascript:void(0)"}
+      %i.fa.fa-bars
+    %nav{role: "navigation"}
+      %ul#js-navigation-menu-tra.navigation-menu.show
+        = partial "nav-links"
 %section.alpha
   = inline_svg "bible-first-logo-full.svg", class: "svg-logo"

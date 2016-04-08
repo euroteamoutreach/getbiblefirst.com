@@ -1,0 +1,14 @@
+.alpha {
+  background-image: url(#{$assets-images-path}stylised-bible-page.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  padding: 10em;
+
+  .svg-logo {
+    width: 70%;
+    height: 70%;
+  }
+}

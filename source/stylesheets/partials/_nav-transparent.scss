@@ -1,0 +1,188 @@
+$base-border-radius: 3px !default;
+$large-screen: em(860) !default;
+$navigation-padding: 1em;
+$navigation-background: transparent;
+$navigation-color: $primary-blue;
+$navigation-color-hover: $primary-blue;
+$navigation-height: 80px;
+$navigation-height-mobile: 55px;
+$navigation-active-link-color: transparentize($white, 0.5);
+$horizontal-bar-mode: $medium-screen;
+
+.nav-transparent {
+
+  background-color: $navigation-background;
+  // border-bottom: 1px solid lighten($light-gray, 20%);
+  min-height: $navigation-height-mobile;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+
+  @include media ($horizontal-bar-mode) {
+    min-height: $navigation-height;
+  }
+
+  .navigation-wrapper {
+    @include clearfix;
+    padding: 0;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .logo {
+    float: left;
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    @include media ($horizontal-bar-mode) {
+      margin-left: 1em;
+      max-height: $navigation-height;
+      width: 52px;
+    }
+
+    @include media ($tablet-portrait) {
+      margin-left: 1em;
+      max-height: $navigation-height;
+      width: 52px;
+    }
+
+    @include media ($phone-landscape) {
+      margin-left: 7px;
+      max-height: $navigation-height-mobile;
+      width: 40px;
+    }
+
+    .svg-logo {
+      width: 100%;
+
+      @include media ($horizontal-bar-mode) {
+        max-height: $navigation-height;
+      }
+
+      @include media ($tablet-portrait) {
+        max-height: $navigation-height;
+      }
+
+      @include media ($phone-landscape) {
+        max-height: $navigation-height-mobile;
+      }
+    }
+  }
+
+  // Mobile view
+
+  .navigation-menu-button {
+    color: $navigation-color;
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    line-height: $navigation-height-mobile;
+    margin: 0;
+    padding: 0 1em;
+    text-decoration: none;
+
+    @include media ($horizontal-bar-mode) {
+      display: none;
+    }
+
+    @include media ($tablet-portrait) {
+      line-height: $navigation-height;
+    }
+
+    @include media ($phone-landscape) {
+      line-height: $navigation-height-mobile;
+    }
+
+    &:focus,
+    &:hover {
+      color: $navigation-color-hover;
+    }
+  }
+
+  // Nav menu
+
+  nav {
+    float: none;
+    min-height: $navigation-height-mobile;
+    z-index: 9999999;
+
+    @include media ($horizontal-bar-mode) {
+      float: right;
+      min-height: $navigation-height;
+    }
+  }
+
+  ul.navigation-menu {
+    clear: both;
+    display: none;
+    font-family: $oxygen-font-family;
+    font-weight: 300;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    z-index: 9999;
+
+    @include media ($horizontal-bar-mode) {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    &.show {
+      display: block;
+    }
+  }
+
+  // The nav items
+
+  ul li.nav-link {
+    background: transparentize($white, 0.1);
+    border-bottom: 1px solid transparentize($dark-gray, 0.8);
+    display: block;
+    line-height: $navigation-height-mobile;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+
+    @include media ($horizontal-bar-mode) {
+      background: $navigation-background;
+      border-bottom: 0;
+      display: inline;
+      line-height: $navigation-height;
+      padding-right: 2em;
+      text-decoration: none;
+      width: auto;
+
+      &:last-child {
+        padding-right: 1.5em;
+      }
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    a {
+      display: inline-block;
+      line-height: 65px;
+      text-decoration: none;
+
+      @include media ($horizontal-bar-mode) {
+        color: $navigation-color;
+
+        &:focus,
+        &:hover {
+          border-top: 7px solid $navigation-color;
+        }
+      }
+    }
+  }
+
+  .active-nav-item a {
+    border-bottom: 1px solid $navigation-active-link-color;
+    padding-bottom: 3px;
+  }
+}

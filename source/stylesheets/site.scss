@@ -7,7 +7,8 @@
 @import "neat/neat";
 
 // Partials
-
+@import "partials/alpha";
+@import "partials/nav-transparent";
 
 
 
@@ -15,16 +16,5 @@
 //// Try out new code here, then extract to partial. ////
 /////////////////////////////////////////////////////////
 
-section.alpha {
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  padding-top: 5em;
-  background-image: url(#{$assets-images-path}stylised-bible-page.png);
-  background-position: center center;
-  background-size: cover;
 
-  .svg-logo {
-    width: 50%;
-  }
-}
+
