@@ -1,4 +1,4 @@
-%footer.universal-footer{role: "contentinfo"}
+%footer.universal-footer{ role: "contentinfo" }
   .footer-logo
     = link_to home_smart_path(current_page.path), class: "back-to-top" do
       = inline_svg "bible-first-logo-full-white.svg", class: "logo"
@@ -8,8 +8,10 @@
       %li= link_to "The Lessons", "#"
       %li= link_to "FAQ", "#"
     %ul
-      %li= link_to "Training Videos", "#"
+      %li= link_to "Training Videos", "/training"
       %li= link_to "Downloads", "#"
       %li= link_to "Purchase", "#"
   %hr
-  %p Bible First is a ministry of Euro Team Outreach, Inc.
+  %p
+    Bible First is a ministry of
+    = link_to "Euro Team Outreach, Inc.", "#"
