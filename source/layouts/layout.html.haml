@@ -3,6 +3,7 @@
   %head
     = partial "head-contents"
   %body{class: page_classes}
+    = partial "header"
     = yield
-  = partial "universal-footer"
-  = partial "copyright-footer"
+    = partial "universal-footer"
+    = partial "copyright-footer"
