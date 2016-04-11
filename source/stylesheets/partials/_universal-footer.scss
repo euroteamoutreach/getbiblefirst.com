@@ -1,9 +1,7 @@
 .universal-footer {
   $base-spacing: 1.5em !default;
-  // $medium-screen: em(640) !default;
-  // $large-screen: em(860) !default;
   $footer-background: desaturate(darken($action-color, 10%), 30%);
-  $footer-color: white;
+  $footer-color: $white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
@@ -12,13 +10,13 @@
   width: 100%;
 
   .footer-logo {
+    margin: 0 auto 2em;
     text-align: center;
-    margin: 0 auto 2em auto;
     width: em(200);
 
     .logo {
-      width: 100%;
       height: 70%;
+      width: 100%;
     }
   }
 
@@ -30,7 +28,7 @@
   }
 
   ul {
-    @include flex-basis(13em);
+    @include flex-basis(11em);
     @include flex-shrink(0);
     margin-bottom: $base-spacing;
     padding: 0;
@@ -40,23 +38,23 @@
     line-height: 1.5em;
     list-style: none;
     text-align: center;
-  }
 
-  li a {
-    color: $footer-link-color;
-    text-decoration: none;
+    a {
+      color: $footer-link-color;
+      text-decoration: none;
 
-    &:focus,
-    &:hover {
-      color: transparentize($footer-color, 0);
+      &:focus,
+      &:hover {
+        color: transparentize($footer-color, 0);
+      }
     }
-  }
 
-  li h3 {
-    color: $footer-color;
-    font-size: 1em;
-    font-weight: 400;
-    margin-bottom: 0.4em;
+    h3 {
+      color: $footer-color;
+      font-size: 1em;
+      font-weight: 400;
+      margin-bottom: 0.4em;
+    }
   }
 
   hr {
@@ -72,5 +70,16 @@
     margin: auto;
     max-width: 35em;
     text-align: center;
+
+    a {
+      border-bottom: 1px solid $footer-disclaimer-color;
+      color: inherit;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        border-bottom: 0;
+      }
+    }
   }
 }

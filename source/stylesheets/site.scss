@@ -22,8 +22,8 @@
 
 
 .beta {
-  padding: 5em;
   background-color: $white;
+  padding: 5em;
   text-align: center;
 }
 
@@ -31,4 +31,13 @@
   padding: 5em;
   background-color: $primary-blue-light;
   text-align: center;
+}
+
+#content-wrapper {
+  padding-top: 69px;
+  background-color: $base-background-color;
+
+  @include media ($phone-landscape) {
+    padding-top: 54px;
+  }
 }
