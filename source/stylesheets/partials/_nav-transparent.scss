@@ -1,5 +1,5 @@
 $base-border-radius: 3px !default;
-$large-screen: em(860) !default;
+// $large-screen: em(860) !default;
 $navigation-padding: 1em;
 $navigation-background: transparent;
 $navigation-color: $primary-blue;
@@ -116,7 +116,7 @@ $horizontal-bar-mode: $medium-screen;
   ul.navigation-menu {
     clear: both;
     display: none;
-    font-family: $oxygen-font-family;
+    font-family: $base-font-family;
     font-weight: 300;
     font-size: 0.9em;
     margin: 0 auto;

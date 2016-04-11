@@ -10,6 +10,8 @@
 // Partials
 @import "partials/alpha";
 @import "partials/nav-transparent";
+@import "partials/copyright-footer";
+@import "partials/universal-footer";
 
 
 
@@ -19,13 +21,13 @@
 
 
 .beta {
-  padding: 10em;
-  background-color: $background-gray;
+  padding: 5em;
+  background-color: $white;
   text-align: center;
 }
 
 .gamma {
-  padding: 10em;
+  padding: 5em;
   background-color: $primary-blue-light;
   text-align: center;
 }
