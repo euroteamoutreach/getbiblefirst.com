@@ -36,13 +36,13 @@ $horizontal-bar-mode: $medium-screen;
     top: 0;
 
     @include media ($horizontal-bar-mode) {
-      margin-left: 1em;
+      margin-left: 0.7em;
       max-height: $navigation-height;
       width: 52px;
     }
 
     @include media ($tablet-portrait) {
-      margin-left: 1em;
+      margin-left: 0.7em;
       max-height: $navigation-height;
       width: 52px;
     }
@@ -118,6 +118,7 @@ $horizontal-bar-mode: $medium-screen;
     display: none;
     font-family: $oxygen-font-family;
     font-weight: 300;
+    font-size: 0.9em;
     margin: 0 auto;
     overflow: visible;
     padding: 0;

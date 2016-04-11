@@ -7,5 +7,10 @@
     %nav{role: "navigation"}
       %ul#js-navigation-menu-tra.navigation-menu.show
         = partial "nav-links"
+
 %section.alpha
-  = inline_svg "bible-first-logo-full.svg", class: "svg-logo"
+  .logo-wrapper
+    = inline_svg "bible-first-logo-full.svg", class: "svg-logo"
+
+  %a.scroll.scroll-on-page-link{href: "#"}
+    %i.fa.fa-chevron-down.fa-2x.animated
