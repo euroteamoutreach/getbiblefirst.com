@@ -1,10 +1,10 @@
-%section.nav-transparent{role: "banner"}
+%section.nav-transparent{ role: "banner" }
   .navigation-wrapper
     = link_to "/", class: "logo" do
       = inline_svg "bible-first-logo-mini-blue.svg", class: "svg-logo"
     %a#js-mobile-menu-tra.navigation-menu-button{href: "javascript:void(0)"}
       %i.fa.fa-bars
-    %nav{role: "navigation"}
+    %nav{ role: "navigation" }
       %ul#js-navigation-menu-tra.navigation-menu.show
         = partial "nav-links"
 
@@ -12,5 +12,13 @@
   .logo-wrapper
     = inline_svg "bible-first-logo-full.svg", class: "svg-logo"
 
-  %a.scroll.scroll-on-page-link{href: "#"}
+  %a.scroll.scroll-on-page-link{ href: "#" }
     %i.fa.fa-chevron-down.fa-2x.animated
+
+%section.beta
+  %h1 This is the BETA section.
+  %p This is some smaller text.
+
+%section.gamma
+  %h1 This is the GAMMA section.
+  %p This is some smaller text.
