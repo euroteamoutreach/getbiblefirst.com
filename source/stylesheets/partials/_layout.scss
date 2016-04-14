@@ -1,0 +1,7 @@
+#content-wrapper {
+  padding-top: 69px;
+
+  @include media ($phone-landscape) {
+    padding-top: 54px;
+  }
+}
