@@ -8,9 +8,11 @@
 @import "neat/neat";
 
 // Partials
-@import "partials/alpha";
+@import "partials/layout";
 @import "partials/nav-transparent";
 @import "partials/nav";
+@import "partials/alpha";
+@import "partials/lessons";
 @import "partials/copyright-footer";
 @import "partials/universal-footer";
 
@@ -28,16 +30,7 @@
 }
 
 .gamma {
-  padding: 5em;
   background-color: $primary-blue-light;
+  padding: 5em;
   text-align: center;
-}
-
-#content-wrapper {
-  padding-top: 69px;
-  background-color: $base-background-color;
-
-  @include media ($phone-landscape) {
-    padding-top: 54px;
-  }
 }
