@@ -11,6 +11,8 @@ gem "bourbon", "~> 4.2"
 gem "neat", "~> 1.7"
 gem "bitters", "~> 1.2.0"
 
+gem "middleman-pry"
+
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 # gem "middleman-search_engine_sitemap", "~> 1.4"
 

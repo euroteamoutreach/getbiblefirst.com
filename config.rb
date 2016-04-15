@@ -1,4 +1,5 @@
 activate :directory_indexes
+activate :pry
 
 set :css_dir, "stylesheets"
 set :js_dir, "javascripts"
