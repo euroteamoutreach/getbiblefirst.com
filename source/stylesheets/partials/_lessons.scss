@@ -2,7 +2,11 @@
 
   .page-content {
     @include outer-container;
-    padding: 2em;
+    padding: 3em 2em 2em;
+
+    > p {
+      margin-bottom: 2em;
+    }
   }
 }
 
@@ -21,6 +25,11 @@
   padding-bottom: 3em;
   width: 100%;
 
+  &:last-child {
+    border: 0;
+    padding-bottom: 0;
+  }
+
   .volume-image,
   .volume-content {
     display: table-cell;
@@ -31,12 +40,10 @@
     padding-right: $volume-gutter;
 
     > img {
-      // background: $volume-background;
       border-radius: $base-border-radius;
       display: block;
       height: auto;
       max-width: none;
-      // padding: $volume-image-padding;
       width: $volume-image-width;
       box-shadow: 0 2px 4px darken($light-gray, 10%);
     }
@@ -49,11 +56,6 @@
 
   .volume-content {
     width: 100%;
-
-    h1 {
-      font-size: 1.4em;
-      margin: 0 0 0.5em 0;
-    }
 
     p {
       line-height: 1.5em;
@@ -86,7 +88,3 @@
     }
   }
 }
-
-
-
-

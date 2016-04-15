@@ -1,0 +1,9 @@
+%section.volume
+  %aside.volume-image
+    = image_tag "volume#{volume["number"]}-500w.jpg"
+  %article.volume-content
+    %h4= volume["title"]
+    %p= volume["content"]
+    %ul
+      - volume["lessons"].each do |lesson|
+        %li= link_to lesson[1]["title"], "/lessons#{lesson[1]["path"]}"

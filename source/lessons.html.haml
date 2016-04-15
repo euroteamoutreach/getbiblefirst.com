@@ -5,15 +5,6 @@ title: The Lessons
 .page-content
   %h2 The Lessons
   %p Bible First consists of 20 individual lessons grouped into 6 volumes. Below is an overview of the material covered in each volume. Click on individual lesson titles to view more detail.
-  %br
 
-  %section.volume
-    %aside.volume-image
-      = image_tag "volume1-500w.jpg"
-    %article.volume-content
-      %h1 Volume 1: Lessons 1-3
-      %p The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
-      %ul
-        %li= link_to "Lesson 1 - Introducing the Bible", "#"
-        %li= link_to "Lesson 2 - Who is God?", "#"
-        %li= link_to "Lesson 3 - God Created the Spirit Beings", "#"
+  - data["volumes"].each do |volume|
+    = partial "volume", locals: { volume: volume }
