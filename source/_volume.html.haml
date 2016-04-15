@@ -1,9 +1,9 @@
 %section.volume
   %aside.volume-image
-    = image_tag "volume#{volume["number"]}-500w.jpg"
+    = image_tag "volume#{volume.number}-500w.jpg"
   %article.volume-content
-    %h4= volume["title"]
-    %p= volume["content"]
+    %h4= render_volume_title_for("volume#{volume.number}")
+    %p= volume.content
     %ul
-      - volume["lessons"].each do |lesson|
-        %li= link_to lesson[1]["title"], "/lessons#{lesson[1]["path"]}"
+      - volume.lessons.each do |key, lesson|
+        %li= link_to send(:render_lesson_title_for, lesson), "/lessons/#{lesson}"

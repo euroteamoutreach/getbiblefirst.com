@@ -1,89 +1,44 @@
 - number: 1
-  title: "Volume 1: Lessons 1&mdash;3"
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson1:
-      title: "Lesson 1 &mdash; Introducing the Bible"
-      path: "/lesson1"
-    lesson2:
-      title: "Lesson 2 &mdash; Introducing the Bible"
-      path: "/lesson2"
-    lesson3:
-      title: "Lesson 3 &mdash; Introducing the Bible"
-      path: "/lesson3"
+    lesson1: "lesson1"
+    lesson2: "lesson2"
+    lesson3: "lesson3"
 
 - number: 2
-  title: "Volume 2: Lessons 4&mdash;6"
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson4:
-      title: "Lesson 4 &mdash; Creation, Part 1"
-      path: "/lesson4"
-    lesson5:
-      title: "Lesson 5 &mdash; Creation, Part 2"
-      path: "/lesson5"
-    lesson6:
-      title: "Lesson 6 &mdash; Adam and Eve"
-      path: "/lesson6"
+    lesson4: "lesson4"
+    lesson5: "lesson5"
+    lesson6: "lesson6"
 
 - number: 3
-  title: "Volume 3: Lessons 7&mdash;10"
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson7:
-      title: "Lesson 7 &mdash; The Fall"
-      path: "/lesson7"
-    lesson8:
-      title: "Lesson 8 &mdash; The Curse and the Promised Deliverer"
-      path: "/lesson8"
-    lesson9:
-      title: "Lesson 9 &mdash; Cain and Abel"
-      path: "/lesson9"
-    lesson10:
-      title: "Lesson 10 &mdash; Noah and the Great Flood"
-      path: "/lesson10"
+    lesson7: "lesson7"
+    lesson8: "lesson8"
+    lesson9: "lesson9"
+    lesson10: "lesson10"
 
 - number: 4
-  title: "Volume 4: Lessons 11&mdash;13"
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson11:
-      title: "Lesson 11 &mdash; Abraham, Part 1"
-      path: "/lesson11"
-    lesson12:
-      title: "Lesson 12 &mdash; Abraham, Part 2"
-      path: "/lesson12"
-    lesson13:
-      title: "Lesson 13 &mdash; Sodom and Gomorrah"
-      path: "/lesson13"
+    lesson11: "lesson11"
+    lesson12: "lesson12"
+    lesson13: "lesson13"
 
 - number: 5
-  title: "Volume 5: Lessons 14&mdash;17"
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson14:
-      title: "Lesson 14 &mdash; Isaac"
-      path: "/lesson14"
-    lesson15:
-      title: "Lesson 15 &mdash; Isaac and His Family"
-      path: "/lesson15"
-    lesson16:
-      title: "Lesson 16 &mdash; Jacob, Part 1"
-      path: "/lesson16"
-    lesson17:
-      title: "Lesson 17 &mdash; Jacob, Part 2"
-      path: "/lesson17"
+    lesson14: "lesson14"
+    lesson15: "lesson15"
+    lesson16: "lesson16"
+    lesson17: "lesson17"
 
 - number: 6
-  title: "Volume 6: Lessons 18&mdash;20"
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
   lessons:
-    lesson18:
-      title: "Lesson 18 &mdash; Joseph, Part 1"
-      path: "/lesson18"
-    lesson19:
-      title: "Lesson 19 &mdash; Joseph, Part 2"
-      path: "/lesson19"
-    lesson20:
-      title: "Lesson 20 &mdash; Next Steps"
-      path: "/lesson20"
+    lesson18: "lesson18"
+    lesson19: "lesson19"
+    lesson20: "lesson20"
+

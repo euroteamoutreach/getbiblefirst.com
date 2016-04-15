@@ -1,0 +1,5 @@
+- current_page.data.title = render_lesson_title_for("lesson7")
+
+.page-content
+  - lesson = data.lessons.lesson7
+  = partial "lesson", locals: { lesson: lesson }
