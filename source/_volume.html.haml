@@ -2,8 +2,8 @@
   %aside.volume-image
     = image_tag "volume#{volume.number}-500w.jpg"
   %article.volume-content
-    %h4= render_volume_title_for("volume#{volume.number}")
+    %h4= data.volume_titles["volume#{volume.number}"]
     %p= volume.content
     %ul
       - volume.lessons.each do |key, lesson|
-        %li= link_to send(:render_lesson_title_for, lesson), "/lessons/#{lesson}"
+        %li= link_to "#{data.lesson_titles[lesson]}", "/lessons/#{lesson}"
