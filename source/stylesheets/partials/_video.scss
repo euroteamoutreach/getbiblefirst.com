@@ -3,7 +3,8 @@
   .page-content {
     @include outer-container;
     padding: 2em;
-    border: 1px solid green;
+
+    h3 { margin-bottom: 0; }
 
     // @include media ($tablet-portrait) {
     //   h3, h4 {
