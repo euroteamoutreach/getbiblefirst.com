@@ -60,4 +60,24 @@ module CustomHelpers
       "file not found: #{file_path}"
     end
   end
+
+  def last_video?(video)
+    video[:part] == "part-7" && video[:number] == "video-3"
+  end
+
+  def more_videos_in_part?(video)
+    data.training_videos[video[:part]].length > video[:number].split("-")[1].to_i
+  end
+
+  def next_video_path_for(video)
+    if last_video?(video)
+      return
+    elsif more_videos_in_part?(video)
+      next_number = video[:number].split("-")[1].to_i + 1
+      "/training/videos/#{video[:part]}/video-#{next_number}"
+    else
+      next_part = video[:part].split("-")[1].to_i + 1
+      "/training/videos/part-#{next_part}/video-1"
+    end
+  end
 end

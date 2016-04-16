@@ -1,0 +1,8 @@
+%section.movie-hero
+  .video
+    .video-wrapper
+      %iframe{ allowfullscreen: "",
+        frameborder: "0",
+        mozallowfullscreen: "",
+        src: "#{data.training_videos[video[:part]][video[:number]].source}",
+        webkitallowfullscreen: "" }

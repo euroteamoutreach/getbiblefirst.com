@@ -1,0 +1,10 @@
+%nav.next-link
+  - unless last_video?(video)
+    = link_to "Next Video", next_video_path_for(video)
+
+%nav.breadcrumbs
+  %ul
+    %li= link_to "Home", "/"
+    %li= link_to "Training", "/training"
+    %li= link_to "#{video[:part].titleize}", "/training/videos/#{video[:part]}"
+    %li= "#{video[:number].titleize}"

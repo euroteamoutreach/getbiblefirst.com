@@ -1,0 +1,54 @@
+.training_videos {
+
+  .page-content {
+    @include outer-container;
+    padding: 2em;
+    border: 1px solid green;
+
+    // @include media ($tablet-portrait) {
+    //   h3, h4 {
+    //     font-size: 1.5em;
+    //   }
+    // }
+    //
+    // @include media ($phone-portrait) {
+    //   h3, h4 {
+    //     font-size: 1em;
+    //   }
+    // }
+    //
+    @include media($large-screen) {
+      padding: 1em 8em;
+    }
+  }
+
+  .movie-hero {
+    background-color: #000;
+    width: 100%;
+    opacity: 0.98;
+  }
+
+  .video {
+    @include outer-container;
+    max-width: 900px;
+
+    @include media($large-screen) {
+      padding: 0 4em;
+    }
+  }
+
+  .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+    position: relative;
+
+    embed,
+    object,
+    iframe {
+      @include position(absolute, 0 null null 0);
+      @include size(100%);
+    }
+  }
+}
+
