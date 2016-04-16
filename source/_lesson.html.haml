@@ -2,7 +2,7 @@
   %aside.lessonx-image
     = image_tag "lesson#{lesson.number}-500w.jpg"
   %article.lessonx-content
-    %h3= render_lesson_title_for("lesson#{lesson.number}")
+    %h3= data.lesson_titles["lesson#{lesson.number}"]
     %hr
     %ul
       - lesson.overview_points.each do |key, point|
