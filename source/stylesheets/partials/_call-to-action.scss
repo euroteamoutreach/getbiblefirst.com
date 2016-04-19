@@ -1,0 +1,52 @@
+.call-to-action {
+  $hero-background-top: $primary-blue;
+  $hero-background-bottom: $dark-gray;
+  $hero-color: white;
+  $gradient-angle: 10deg;
+  $hero-image: "#{$assets-images-path}stylised-bible-color.png";
+
+  background: url($hero-image),
+              linear-gradient($gradient-angle,
+              $hero-background-bottom, $hero-background-top),
+              no-repeat $hero-background-top scroll;
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h3 {
+        color: $white;
+        margin-bottom: 0;
+      }
+
+      p {
+        color: $white;
+        margin-bottom: 2.5em;
+      }
+
+      button {
+        border: 1px solid $white;
+        background: none;
+        padding: 0.725em 3em;
+        font-size: 1.2em;
+
+        &:hover,
+        &:focus {
+          background-color: shade($white, 50%);
+          color: $white;
+        }
+      }
+    }
+  }
+}
