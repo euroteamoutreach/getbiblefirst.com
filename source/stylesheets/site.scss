@@ -16,6 +16,7 @@
 @import "partials/lessons";
 @import "partials/lessonx";
 @import "partials/faith-cometh";
+@import "partials/talking-points";
 @import "partials/video";
 @import "partials/breadcrumbs";
 @import "partials/copyright-footer";
@@ -27,23 +28,3 @@
 //// Try out new code here, then extract to partial. ////
 /////////////////////////////////////////////////////////
 
-.talking-points {
-  padding-top: 3em;
-  background-color: $white;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  .tp-blocks {
-  @include outer-container;
-  }
-
-  .block {
-    @include span-columns(4);
-    @include omega(3n);
-    text-align: center;
-    border: 1px solid green;
-    padding: 1em;
-    margin-bottom: 2em;
-  }
-}

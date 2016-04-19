@@ -3,7 +3,7 @@
   $hero-background-bottom: #20392B;
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: "#{$assets-images-path}earthscape.jpg";
+  $hero-image: "#{$assets-images-path}earthscape.png";
 
   background: url($hero-image),
               linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
@@ -13,12 +13,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em;
+  position: relative;
+
+  .link-target {
+    position: absolute;
+    top: -45px;
+  }
 
   .hero-inner {
     @include outer-container;
     @include clearfix;
     margin: auto;
-    padding: 10em 4em 2em;
+    padding: 7em 4em 2em;
     text-align: center;
 
     .hero-copy {
