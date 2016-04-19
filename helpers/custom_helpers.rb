@@ -11,9 +11,9 @@ module CustomHelpers
 
   def overview_smart_path(path)
     if !!(path =~ /index/)
-      "#call-to-men"
+      "#earthscape-link"
     else
-      "/#call-to-men"
+      "/#earthscape-link"
     end
   end
 

@@ -16,13 +16,62 @@ layout: home
   .logo-wrapper
     = inline_svg "logo-full.svg", class: "svg-logo"
 
-  %a.scroll.scroll-on-page-link{ href: "#" }
+  %a.scroll.scroll-on-page-link{ href: "#earthscape-link" }
     %i.fa.fa-chevron-down.fa-2x.animated
 
-%section.beta
-  %h1 This is the BETA section.
-  %p This is some smaller text.
+%section.earthscape-hero
+  %span.link-target#earthscape-link
+  .hero-inner
+    .hero-copy
+      %h1 God's Word is the most powerful evangelistic force on Earth.
 
-%section.gamma
-  %h1 This is the GAMMA section.
-  %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%section.faith-cometh
+  %article.faith-cometh-content
+    %h3.quote Faith cometh by hearing, and  hearing by the word of God.
+    %cite.reference &mdash; Romans 10:17
+    %p Bible First is an evangelism tool designed to help you reach the lost effectively. This distance-learning course takes readers on a chronological journey through the book of Genesis, presenting not only the Gospel, but every major doctrine in Scripture. The lessons point to Jesus, drawing on the types and parallels that God Himself built into Genesis.
+
+  %aside.faith-cometh-image
+    = image_tag "volume1-3d.png"
+
+%section.talking-points
+  %ul.tp-blocks
+    %li.block
+      = image_tag "missionaries-walking.jpg"
+      %h4 Developed by Missionaries
+      %p Designed and written by missionaries serving in Western Ukraine, Bible First is a tried-and-true evangelism tool that you can use with confidence.
+    %li.block
+      = image_tag "chronological-approach.jpg"
+      %h4
+        Chronological
+        %br Approach
+      %p Beginning at Genesis 1:1, Bible First presents readers with the message of Scripture in the order God has given it. This approach builds the foundation necessary for a correct understanding of the Gospel.
+    %li.block
+      = image_tag "christ-in-genesis.jpg"
+      %h4 Presenting Christ in Genesis
+      %p Genesis is full of stories that point to the Messiah. Bible First takes full advantage of this, highlighting the Gospel message throughout the course.
+    %li.block
+      = image_tag "visual-format.jpg"
+      %h4
+        Engaging
+        %br Visual Format
+      %p Bible First consists of 20 lessons, each of which presents an engaging and visually pleasing design that keeps readers enthralled with the message of Scripture.
+    %li.block
+      = image_tag "build-relationships.jpg"
+      %h4 Designed to Build Relationships
+      %p Bible First provides a context in which to build trust with your students. As you progress through the lessons together, you'll establish channels of communication which will open doors to share Christ.
+    %li.block
+      = image_tag "every-doctrine.jpg"
+      %h4
+        Every Major
+        %br Doctrine
+      %p From blood atonement with Abel to imputed righteounsness with Abraham, Bible First ties in every major doctrine of Scripture using the types and parallels God has built into Genesis.
+
+%section.call-to-action
+  .hero-inner
+    .hero-copy
+      %h3 "Go ye therefore, and teach all nations..."
+      %p Matthew 28:19
+      = link_to("/training", class: "button") do
+        = content_tag :button, "Get Started"
+
