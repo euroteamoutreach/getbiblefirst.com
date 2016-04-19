@@ -12,6 +12,7 @@
 @import "partials/nav-transparent";
 @import "partials/nav";
 @import "partials/alpha";
+@import "partials/earthscape";
 @import "partials/lessons";
 @import "partials/lessonx";
 @import "partials/video";
@@ -25,15 +26,3 @@
 //// Try out new code here, then extract to partial. ////
 /////////////////////////////////////////////////////////
 
-
-.beta {
-  background-color: $white;
-  padding: 5em;
-  text-align: center;
-}
-
-.gamma {
-  background-color: $primary-blue-light;
-  padding: 5em;
-  text-align: center;
-}

@@ -1,0 +1,38 @@
+.earthscape-hero {
+  $hero-background-top: #7F99BE;
+  $hero-background-bottom: #20392B;
+  $hero-color: white;
+  $gradient-angle: 10deg;
+  $hero-image: "#{$assets-images-path}earthscape.jpg";
+
+  background: url($hero-image),
+              linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
+              no-repeat $hero-background-top scroll;
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 11em 4em 4em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        color: $hero-color;
+        font-size: 2.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 3em;
+        }
+      }
+    }
+  }
+}
