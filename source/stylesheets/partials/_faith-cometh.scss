@@ -1,0 +1,40 @@
+.faith-cometh {
+  @include outer-container;
+  background-size: cover;
+  padding: 3em 6em;
+  position: relative;
+  width: 100%;
+
+  .faith-cometh-content {
+    @include span-columns(8);
+    padding-top: 2em;
+
+    .quote {
+      margin: 0;
+      position: relative;
+    }
+
+    .quote::before {
+      content: "\201C";
+      display: block;
+      font-size: 140px;
+      font-style: italic;
+      font-weight: normal;
+      left: -80px;
+      position: absolute;
+      top: -20px;
+    }
+
+    .reference {
+      color: transparentize($base-font-color, 0.5);
+      display: block;
+      font-size: 0.9em;
+      margin-bottom: 1em;
+    }
+  }
+
+  .faith-cometh-image {
+    @include span-columns(4);
+    padding-left: 3em;
+  }
+}
