@@ -3,7 +3,7 @@ $navigation-padding: 1em;
 $navigation-background: $white;
 $navigation-color: $primary-blue;
 $navigation-color-hover: $primary-blue;
-$navigation-height: 80px;
+$navigation-height: 70px;
 $navigation-height-mobile: 55px;
 $navigation-active-link-color: red;
 $horizontal-bar-mode: $medium-screen;
@@ -46,7 +46,7 @@ $horizontal-bar-mode: $medium-screen;
     @include media ($horizontal-bar-mode) {
       margin-left: 0.7em;
       max-height: $navigation-height - 1;
-      width: 65px;
+      width: 52px;
     }
 
     @include media ($tablet-portrait) {
@@ -175,7 +175,7 @@ $horizontal-bar-mode: $medium-screen;
     a {
       color: $navigation-color;
       display: inline-block;
-      line-height: 65px;
+      line-height: 56px;
       text-decoration: none;
 
       @include media ($horizontal-bar-mode) {

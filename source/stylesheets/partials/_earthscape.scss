@@ -17,14 +17,14 @@
 
   .link-target {
     position: absolute;
-    top: -78px;
+    top: -68px;
   }
 
   .hero-inner {
     @include outer-container;
     @include clearfix;
     margin: auto;
-    padding: 7em 2em 2em;
+    padding: 6em 2em 0.5em;
     text-align: center;
 
     .hero-copy {
