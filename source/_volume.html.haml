@@ -5,5 +5,5 @@
     %h4= data.volume_titles["volume#{volume.number}"]
     %p= volume.content
     %ul
-      - volume.lessons.each do |key, lesson|
-        %li= link_to "#{data.lesson_titles[lesson]}", "/lessons/#{lesson}"
+      - volume.lessons.each do |_key, lesson|
+        %li= link_to data.lesson_titles[lesson].to_s, "/lessons/#{lesson}"

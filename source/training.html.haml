@@ -8,3 +8,5 @@ title: Training
       %h1 You can be a Bible First coach.
 
 %section.training-videos
+  - data.part_titles.each do |part|
+    = partial "video-part", locals: { part: part }

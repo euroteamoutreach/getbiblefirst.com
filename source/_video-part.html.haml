@@ -1,0 +1,5 @@
+%h3= part.title
+
+%ul
+  - data.training_videos["part-#{part.number}"].each do |key, video|
+    %li= link_to video.title.to_s, "/training/videos/part-#{part.number}/#{key}"
