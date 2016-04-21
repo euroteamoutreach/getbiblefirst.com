@@ -1,1 +1,4 @@
-%h1 Part 2 Index
+%section.training-videos
+  - part = data.part_titles[1]
+  = partial "video-part-breadcrumbs", locals: { part: part }
+  = partial "video-part", locals: { part: part }

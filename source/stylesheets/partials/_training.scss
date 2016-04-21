@@ -51,6 +51,11 @@
   background-color: $white;
 }
 
+// .video-part-wrapper {
+//   @include outer-container;
+//   padding: 2em;
+// }
+
 .video-part {
 
   h4 {
@@ -80,3 +85,4 @@
     line-height: 1.3em;
   }
 }
+
