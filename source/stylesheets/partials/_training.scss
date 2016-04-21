@@ -1,34 +1,3 @@
-@charset "utf-8";
-@import "vendor/normalize";
-@import "vendor/animate";
-
-// http://bourbon.io
-@import "bourbon/bourbon";
-@import "base/base";
-@import "neat/neat";
-
-// Partials
-@import "partials/layout";
-@import "partials/nav-transparent";
-@import "partials/nav";
-@import "partials/alpha";
-@import "partials/earthscape";
-@import "partials/lessons";
-@import "partials/lessonx";
-@import "partials/faith-cometh";
-@import "partials/talking-points";
-@import "partials/call-to-action";
-@import "partials/video";
-@import "partials/breadcrumbs";
-@import "partials/copyright-footer";
-@import "partials/universal-footer";
-
-
-
-//////////////////////// SANDBOX ////////////////////////
-//// Try out new code here, then extract to partial. ////
-/////////////////////////////////////////////////////////
-
 .training-hero {
   $hero-background-top: #0D47A1;
   $hero-background-bottom: #1C2520;
