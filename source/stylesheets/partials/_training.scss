@@ -6,8 +6,8 @@
   $hero-image: "#{$assets-images-path}coach-desk.png";
 
   background: url($hero-image),
-              linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
-              no-repeat $hero-background-top scroll;
+  linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
+  no-repeat $hero-background-top scroll;
   background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
@@ -47,5 +47,36 @@
 .training-videos {
   @include outer-container;
   padding: 2em;
+  width: em(500);
+  background-color: $white;
 }
 
+.video-part {
+
+  h4 {
+    margin-bottom: 0.3em;
+  }
+
+  ul {
+    margin-bottom: 2em;
+  }
+
+  li {
+    margin-bottom: 0.2em;
+
+    a {
+      border-bottom: 1px solid $action-color;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  i {
+    color: $action-color;
+    line-height: 1.3em;
+  }
+}
