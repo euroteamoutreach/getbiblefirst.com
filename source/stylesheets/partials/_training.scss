@@ -43,21 +43,72 @@
   }
 }
 
+.training-intro-wrapper {
+  background-color: $white;
+  background-size: cover;
+  border-bottom: 1px solid $subtle-gray;
+}
+
+.training-intro {
+  @include outer-container;
+  padding: 4em 0 2em;
+
+  .training-title {
+    @include span-columns(8);
+    @include shift(2);
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .training-copy {
+    @include span-columns(6);
+    @include shift(3);
+    margin-bottom: 3em;
+    text-align: center;
+  }
+
+  .video-sample {
+    @include span-columns(3);
+    @include shift(2);
+    padding-top: 0.25em;
+
+    img {
+      border-radius: $base-border-radius;
+      box-shadow: 0 2px 4px darken($light-gray, 10%);
+    }
+  }
+
+  .video-intro {
+    @include span-columns(5);
+  }
+}
 
 .training-videos {
   @include outer-container;
   padding: 2em;
-  width: em(500);
+  width: em(400);
   background-color: $white;
+  position: relative;
+
+  .link-target {
+    position: absolute;
+    top: -68px;
+  }
+
+  .scroll {
+    float: right;
+  }
+
+  h5 {
+    color: $medium-gray;
+  }
+
+  hr {
+    margin-top: 0;
+  }
 }
 
-// .video-part-wrapper {
-//   @include outer-container;
-//   padding: 2em;
-// }
-
 .video-part {
-
   h4 {
     margin-bottom: 0.3em;
   }
