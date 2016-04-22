@@ -1,0 +1,8 @@
+.video-part
+  %h4= part.title
+
+  %ul.fa-ul
+    - data.training_videos["part-#{part.number}"].each do |key, video|
+      %li
+        %i.fa-li.fa.fa-play-circle-o
+        = link_to video.title.to_s, "/training/videos/part-#{part.number}/#{key}"

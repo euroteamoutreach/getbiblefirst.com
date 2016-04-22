@@ -4,7 +4,7 @@
       = inline_svg "logo-full-white.svg", class: "logo"
   .footer-links
     %ul
-      %li= link_to "Overview", "#"
+      %li= link_to "Overview", overview_smart_path(current_page.path)
       %li= link_to "The Lessons", "/lessons"
       %li= link_to "FAQ", "/faq"
     %ul

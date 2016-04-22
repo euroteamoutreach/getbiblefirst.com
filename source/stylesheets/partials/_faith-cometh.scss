@@ -1,13 +1,14 @@
 .faith-cometh {
   @include outer-container;
   background-size: cover;
-  padding: 3em 6em;
+  padding: 3em 4em 0;
   position: relative;
   width: 100%;
 
   .faith-cometh-content {
     @include span-columns(8);
     padding-top: 2em;
+    padding-bottom: 4em;
 
     .quote {
       margin: 0;
@@ -33,8 +34,10 @@
     }
   }
 
-  .faith-cometh-image {
-    @include span-columns(4);
-    padding-left: 3em;
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 3em;
+    width: 300px;
   }
 }

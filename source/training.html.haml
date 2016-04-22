@@ -1,3 +1,37 @@
-%section.training
-  %h1 You can be a Bible First coach.
-  %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+title: Training
+---
+
+%section.training-hero
+  .hero-inner
+    .hero-copy
+      %h1 You can be a Bible First coach.
+
+%section.training-intro-wrapper
+  .training-intro
+    .training-title
+      %h3 You've read the lessons. Now share what you've learned!
+
+    .training-copy
+      %p Christ has commanded us to go into the world and teach all nations. The Bible First program was developed with this command in mind. As a Bible First coach, you'll invite your own students to study the Scriptures with you, using Bible First as a guide. This approach to evangelism provides an excellent context in which to share the Gospel.
+      %p Before you start, we'd like to share some tips and tricks that will help you be successful as you build your ministry.
+
+    .training-title
+      %h3 Welcome to the Bible First Training Videos!
+
+    .video-sample
+      %a.scroll.scroll-on-page-link{ href: "#video-start" }
+        = image_tag "nathan-video-screenshot.jpg"
+    .video-intro
+      %p These videos have been designed to give you the foundation you need to build an effective ministry using Bible First. We strongly encourage you to watch this series in its entirety before you begin your journey as a Bible First coach.
+      %p If you have any questions or comments about the material presented here, please contact us.
+
+%section.training-videos
+  %span.link-target#video-start
+  %h5 Bible First Training Videos
+  %hr
+  - data.part_titles.each do |part|
+    = partial "video-part", locals: { part: part }
+  %a.scroll.scroll-on-page-link{ href: "#video-start" }
+    %i.fa.fa-sort-asc{"aria-hidden" => "true"}
+    top

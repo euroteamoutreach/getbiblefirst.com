@@ -1,1 +1,7 @@
-%h1 Part 3 Index
+%section.training-videos
+  %h5 Bible First Training Videos
+  %hr
+
+  - part = data.part_titles[2]
+  = partial "video-part-breadcrumbs", locals: { part: part }
+  = partial "video-part", locals: { part: part }
