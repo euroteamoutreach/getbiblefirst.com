@@ -2,7 +2,8 @@
 
   .page-content {
     @include outer-container;
-    padding: 3em 2em 2em;
+    padding: 3em 1em;
+    width: em(700);
 
     > p {
       margin-bottom: 2em;
@@ -41,11 +42,11 @@
 
     > img {
       border-radius: $base-border-radius;
+      box-shadow: 0 2px 4px darken($light-gray, 10%);
       display: block;
       height: auto;
       max-width: none;
       width: $volume-image-width;
-      box-shadow: 0 2px 4px darken($light-gray, 10%);
     }
 
     .volume-reverse-order & {
