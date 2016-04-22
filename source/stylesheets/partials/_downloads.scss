@@ -1,0 +1,59 @@
+.downloads {
+
+  .page-content {
+    @include outer-container;
+    padding: 3em 1em;
+    width: em(600);
+
+    > p {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.download-segment {
+  @include span-columns(8);
+  padding: 2em;
+  background-color: $white;
+  margin-bottom: 1em;
+  border-radius: $base-border-radius;
+
+  h4 {
+    margin-bottom: 0.3em;
+  }
+
+  ul li {
+    margin-bottom: 0.6em;
+
+    a {
+      border-bottom: 1px solid $action-color;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  p {
+    font-size: 75%;
+  }
+
+  i {
+    line-height: 1.4em;
+  }
+
+  .fa-file-pdf-o {
+    color: $primary-red;
+  }
+
+  .fa-file-word-o {
+    color: #3377AF;
+  }
+
+  .back-to-top {
+    float: right;
+    font-size: 80%;
+  }
+}
