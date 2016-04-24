@@ -23,25 +23,16 @@
 @import "partials/training";
 @import "partials/downloads";
 @import "partials/contact";
+@import "partials/faq";
 @import "partials/thanks";
 @import "partials/breadcrumbs";
 @import "partials/copyright-footer";
 @import "partials/universal-footer";
 
+@import "partials/type";
 
 
 //////////////////////// SANDBOX ////////////////////////
 //// Try out new code here, then extract to partial. ////
 /////////////////////////////////////////////////////////
 
-.faq {
-  .page-content {
-    @include outer-container;
-    padding: 3em 1em;
-    width: em(600);
-
-    > p {
-      margin-bottom: 2em;
-    }
-  }
-}

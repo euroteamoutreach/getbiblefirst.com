@@ -33,7 +33,7 @@
       h1 {
         color: $hero-color;
         font-size: 2.6em;
-        // margin-bottom: 0.5em;
+        border-bottom: 0;
 
         @include media($large-screen) {
           font-size: 3.3em;

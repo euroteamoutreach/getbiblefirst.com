@@ -1,0 +1,7 @@
+.type {
+  .page-content {
+    @include outer-container;
+    padding: 3em 1em;
+    width: em(600);
+  }
+}

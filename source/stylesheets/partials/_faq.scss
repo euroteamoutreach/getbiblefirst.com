@@ -1,12 +1,11 @@
-.thanks {
+.faq {
   .page-content {
     @include outer-container;
     padding: 3em 1em;
-    text-align: center;
     width: em(700);
 
-    h1 {
-      color: $action-color;
+    > p {
+      margin-bottom: 2em;
     }
   }
 }
