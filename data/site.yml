@@ -1,6 +1,7 @@
 language: "en-us"
 url: "http://getbiblefirst.com"
-human_url: "getbiblefirst.com"
+human_url: "getbiblefirst.com.s3-website-us-east-1.amazonaws.com"
 name: "Bible First"
 description: "description here..."
 title: "Bible First"
+contact_email: "joshukraine@gmail.com"
