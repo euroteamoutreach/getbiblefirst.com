@@ -6,40 +6,46 @@ body {
   line-height: $base-line-height;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-gray;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  color: $dark-gray;
 }
 
-h1 { font-size: $h1-font-size; }
+h1 {
+  border-bottom: 7px solid $subtle-gray;
+  font-size: $h1-font-size;
+  padding-bottom: 0.1em;
+}
+
 h2 { font-size: $h2-font-size; }
 h3 { font-size: $h3-font-size; }
 h4 { font-size: $h4-font-size; }
 h5 { font-size: $h5-font-size; }
 h6 { font-size: $h6-font-size; }
 
-h1 {
-  border-bottom: 7px solid $subtle-gray;
-  padding-bottom: 0.1em;
-}
-
-h4, h5 {
+h4,
+h5 {
   text-transform: uppercase;
 }
 
 p {
   font-family: $base-font-family;
-  margin: 0 0 $small-spacing;
   font-weight: 300;
+  margin: 0 0 $small-spacing;
 }
 
 a {
   color: $action-color;
+  outline: none;
   text-decoration: none;
   transition: color $base-duration $base-timing;
-  outline: none;
 
   &:active,
   &:focus,
@@ -49,7 +55,8 @@ a {
   }
 }
 
-ul, ol { font-weight: 300; }
+ul,
+ol { font-weight: 300; }
 
 hr {
   border-bottom: $base-border;
