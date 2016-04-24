@@ -20,6 +20,15 @@ h4 { font-size: $h4-font-size; }
 h5 { font-size: $h5-font-size; }
 h6 { font-size: $h6-font-size; }
 
+h1 {
+  border-bottom: 7px solid $subtle-gray;
+  padding-bottom: 0.1em;
+}
+
+h4, h5 {
+  text-transform: uppercase;
+}
+
 p {
   font-family: $base-font-family;
   margin: 0 0 $small-spacing;
