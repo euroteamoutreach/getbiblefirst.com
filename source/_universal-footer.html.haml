@@ -1,18 +1,20 @@
 %footer.universal-footer{ role: "contentinfo" }
-  .footer-logo
-    = link_to home_smart_path(current_page.path), class: "home-back-to-top" do
-      = inline_svg "logo-full-white.svg", class: "logo"
-  .footer-links
-    %ul
-      %li= link_to "Overview", overview_smart_path(current_page.path)
-      %li= link_to "The Lessons", "/lessons"
-      %li= link_to "FAQ", "/faq"
-      %li= link_to "Contact", "/contact"
-    %ul
-      %li= link_to "Training", "/training"
-      %li= link_to "Videos", "/training#video-start"
-      %li= link_to "Downloads", "/downloads"
-      %li= link_to "Purchase", "/purchase"
+  .footer-content
+    .footer-links-left
+      %ul
+        %li= link_to "Overview", overview_smart_path(current_page.path)
+        %li= link_to "The Lessons", "/lessons"
+        %li= link_to "FAQ", "/faq"
+        %li= link_to "Contact", "/contact"
+    .footer-links-right
+      %ul
+        %li= link_to "Training", "/training"
+        %li= link_to "Videos", "/training#video-start"
+        %li= link_to "Downloads", "/downloads"
+        %li= link_to "Purchase", "/purchase"
+    .footer-logo
+      = link_to home_smart_path(current_page.path), class: "home-back-to-top" do
+        = inline_svg "logo-full-white.svg", class: "logo"
   %hr
   %p
     Bible First is a ministry of
