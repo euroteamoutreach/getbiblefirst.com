@@ -1,0 +1,11 @@
+.thanks {
+  .page-content {
+    @include outer-container;
+    padding: 3em 1em;
+    text-align: center;
+
+    h1 {
+      color: $action-color;
+    }
+  }
+}

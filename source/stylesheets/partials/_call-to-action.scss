@@ -1,7 +1,7 @@
 .call-to-action {
   $hero-background-top: $primary-blue;
   $hero-background-bottom: $dark-gray;
-  $hero-color: white;
+  $hero-color: $white;
   $gradient-angle: 10deg;
   $hero-image: "#{$assets-images-path}stylised-bible-color.png";
 
@@ -9,7 +9,6 @@
               linear-gradient($gradient-angle,
               $hero-background-bottom, $hero-background-top),
               no-repeat $hero-background-top scroll;
-  background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,18 +33,18 @@
         color: $white;
         margin-bottom: 2.5em;
       }
+    }
 
-      button {
-        border: 1px solid $white;
-        background: none;
-        padding: 0.725em 3em;
-        font-size: 1.2em;
+    button {
+      background: none;
+      border: 1px solid $white;
+      color: $white;
+      font-size: 1.2em;
+      padding: 0.725em 3em;
 
-        &:hover,
-        &:focus {
-          background-color: shade($white, 50%);
-          color: $white;
-        }
+      &:hover,
+      &:focus {
+        background-color: shade($white, 50%);
       }
     }
   }
