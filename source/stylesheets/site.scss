@@ -31,3 +31,15 @@
 //// Try out new code here, then extract to partial. ////
 /////////////////////////////////////////////////////////
 
+.contact {
+
+  .page-content {
+    @include outer-container;
+    padding: 3em 1em;
+    width: em(600);
+
+    > p {
+      margin-bottom: 2em;
+    }
+  }
+}

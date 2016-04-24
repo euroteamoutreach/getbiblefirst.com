@@ -1,0 +1,13 @@
+---
+title: Contact
+---
+
+.page-content
+  %h2 Contact
+  %p Need to get in touch? Drop us a line! We'll do our best to answer you quickly.
+
+  %form{action: "https://formspree.io/joshukraine@gmail.com", method: "POST"}
+    %input{ name: "full_name", type: "text", required: "", placeholder: "Name" }
+    %input{ name: "_replyto", type: "email", required: "", placeholder: "Email" }
+    %textarea{name: "message", cols: "30", rows: "10", required: "", placeholder: "Your message" }
+    %input{ type: "submit", value: "Send" }
