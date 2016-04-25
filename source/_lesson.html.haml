@@ -3,7 +3,6 @@
     = image_tag "lesson#{lesson.number}-500w.jpg"
   %article.lessonx-content
     %h3= data.lesson_titles["lesson#{lesson.number}"]
-    %hr
     %ul
       - lesson.overview_points.each do |key, point|
         %li= point

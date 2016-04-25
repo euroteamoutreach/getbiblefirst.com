@@ -56,6 +56,12 @@
 
   .lessonx-content {
     width: 100%;
+
+    h3 {
+      border-bottom: 1px solid $subtle-gray;
+      padding-bottom: 0.1em;
+    }
+
     h4 {
       margin-bottom: 0.3em;
     }
