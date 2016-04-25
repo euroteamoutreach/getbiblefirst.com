@@ -1,7 +1,6 @@
 .callout-box {
   $callout-box-color: desaturate($action-color, 10%);
 
-  width: 100%;
   background-color: transparentize($primary-blue-light, 0.6);
   border: 1px solid lighten($callout-box-color, 40%);
   text-align: center;
@@ -17,6 +16,7 @@
 
   p {
     color: $callout-box-color;
+    margin: 0;
   }
 
   a {
