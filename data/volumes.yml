@@ -4,6 +4,7 @@
     lesson1: "lesson1"
     lesson2: "lesson2"
     lesson3: "lesson3"
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-1"
 
 - number: 2
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
@@ -11,6 +12,7 @@
     lesson4: "lesson4"
     lesson5: "lesson5"
     lesson6: "lesson6"
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-2"
 
 - number: 3
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
@@ -19,6 +21,7 @@
     lesson8: "lesson8"
     lesson9: "lesson9"
     lesson10: "lesson10"
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-3"
 
 - number: 4
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
@@ -26,6 +29,7 @@
     lesson11: "lesson11"
     lesson12: "lesson12"
     lesson13: "lesson13"
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-4"
 
 - number: 5
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
@@ -34,6 +38,7 @@
     lesson15: "lesson15"
     lesson16: "lesson16"
     lesson17: "lesson17"
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-5"
 
 - number: 6
   content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
@@ -41,4 +46,4 @@
     lesson18: "lesson18"
     lesson19: "lesson19"
     lesson20: "lesson20"
-
+  ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-6"
