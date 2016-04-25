@@ -1,5 +1,5 @@
 %li.block
   = image_tag "volume#{volume.number}-500w.jpg"
   %h5= data.volume_titles["volume#{volume.number}"]
-  = link_to(volume.ngj_link, class: "button") do
+  = link_to(volume.ngj_link, class: "button", target: "_blank") do
     = content_tag :button, "Purchase"
