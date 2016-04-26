@@ -4,14 +4,14 @@
       %ul
         %li= link_to "Overview", overview_smart_path(current_page.path)
         %li= link_to "The Lessons", "/lessons"
-        %li= link_to "FAQ", "/faq"
-        %li= link_to "Contact", "/contact"
-    .footer-links-right
-      %ul
         %li= link_to "Training", "/training"
         %li= link_to "Videos", "/training#video-start"
-        %li= link_to "Downloads", "/downloads"
+    .footer-links-right
+      %ul
         %li= link_to "Purchase", "/purchase"
+        %li= link_to "Bulk Orders", "/purchase/bulk"
+        %li= link_to "Downloads", "/downloads"
+        %li= link_to "Contact", "/contact"
     .footer-logo
       = link_to home_smart_path(current_page.path), class: "home-back-to-top" do
         = inline_svg "logo-full-white.svg", class: "logo"
