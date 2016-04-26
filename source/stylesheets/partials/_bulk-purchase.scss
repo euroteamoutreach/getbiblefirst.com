@@ -1,0 +1,44 @@
+.bulk-purchase-form {
+  background-color: $white;
+  border-radius: $base-border-radius;
+  padding: 2em;
+  width: em(600);
+
+  fieldset {
+    margin-bottom: 2em;
+  }
+
+  .books-form-row {
+    @include outer-container;
+
+    .book-label {
+      @include span-columns(2);
+      padding-top: 0.3em;
+    }
+
+    .book-qty {
+      @include span-columns(2);
+    }
+
+    .book-copies {
+      @include span-columns(8);
+      padding-top: 0.3em;
+    }
+  }
+
+  .address-row {
+    @include outer-container;
+
+    .city {
+      @include span-columns(6);
+    }
+
+    .state {
+      @include span-columns(3);
+    }
+
+    .zip {
+      @include span-columns(3);
+    }
+  }
+}
