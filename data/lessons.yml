@@ -1,24 +1,14 @@
 lesson1:
   number: 1
   overview_points:
-    p1: First point
-    p2: Second point
-    p3: Third point
+    p1: "The Bible&apos;s Authorship"
+    p2: "The Bible&apos;s Preservation"
+    p3: "The Bible&apos;s Survival"
+    p4: "The Bible&apos;s Contents"
+    p5: "The Bible is for Us"
   intro: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
+    <p>“Blessed are they that hear the word of God, and keep it.” (Luke 11:28) The word “Bible” comes from the Greek word “biblios” and simply means, “the book.” The Bible has been referred to as “the book of books.” As God’s Word, it stands far above every other written work and does not require a title. It is enough to call it “The Book.”</p>
+    <p>Of all the literature in the world, the Bible is the most widely circulated and the most extensively translated. It has withstood persecution more than any other book, and after thousands of years continues to be a number one best-seller. The Bible has been better preserved and substantiated than any other ancient document. Its facts have been repeatedly confirmed both historically and archeologically, and the wisdom of its principles have stood the test of time. A book that is so set apart warrants our attention and further investigation.</p>
 
 lesson2:
   number: 2
