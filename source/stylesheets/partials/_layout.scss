@@ -8,8 +8,25 @@
 
 .page-content {
   @include outer-container;
-  padding: 3em 1em;
+  padding: 3em 2em;
   width: em(700);
+
+  @include media ($tablet-portrait) {
+    padding: 2em;
+    width: 100%;
+  }
+
+  @include media ($phone-landscape) {
+    padding: 1em;
+
+    h1 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+  }
 
   > p {
     margin-bottom: 2em;
