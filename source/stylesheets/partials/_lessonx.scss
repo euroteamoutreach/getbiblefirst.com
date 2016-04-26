@@ -1,13 +1,4 @@
 .lessons {
-
-  .page-content {
-    @include outer-container;
-    padding: 3em 2em 2em;
-
-    > p {
-      margin-bottom: 2em;
-    }
-  }
 }
 
 .lessonx {
@@ -56,6 +47,12 @@
 
   .lessonx-content {
     width: 100%;
+
+    h3 {
+      border-bottom: 1px solid $subtle-gray;
+      padding-bottom: 0.1em;
+    }
+
     h4 {
       margin-bottom: 0.3em;
     }

@@ -12,7 +12,7 @@ legend {
 }
 
 label {
-  display: block;
+  display: inline;
   font-weight: 600;
   margin-bottom: $small-spacing / 2;
 }
@@ -21,19 +21,18 @@ input,
 select {
   display: block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 1em;
 }
 
 #{$all-text-inputs},
 select[multiple] {
-  // background-color: $base-background-color;
   background-color: $white;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 1em;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
   transition: border-color $base-duration $base-timing;

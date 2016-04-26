@@ -1,0 +1,63 @@
+---
+title: Bulk Purchases
+---
+
+.page-content
+  %h1 Bulk Purchases
+  %p
+    Purchases of 50 copies or more are eligible for significant discounts. To receive a quote, please complete the form below.
+
+  .bulk-purchase-form
+    %form{ action: "https://formspree.io/#{data.site.orders_email}",
+           method: "POST" }
+      %fieldset
+        %legend Contact
+        %p Provide your contact information.
+        %input{ name: "full_name", type: "text", required: "",
+                placeholder: "Name", maxlength: "100" }
+        %input{ name: "_replyto", type: "email", required: "",
+                placeholder: "Email", maxlength: "100" }
+        %input{ name: "phone", type: "tel",
+                placeholder: "Phone", maxlength: "100" }
+
+      %fieldset
+        %legend Books
+        %p
+          Indicate how copies of each volume you would like to purchase.
+          You must purchase at least 50 total copies in order to qualify for the
+          bulk discount.
+        - data["volumes"].each do |volume|
+          = partial "book-row", locals: { volume: volume }
+
+      %fieldset
+        %legend Shipping
+        %p Provide your U.S. shipping address.
+        %input{ name: "street_address", type: "text", required: "",
+                placeholder: "Street Address", maxlength: "100" }
+        .address-row
+          .city
+            %input{ name: "city", type: "text", required: "",
+                    placeholder: "City", maxlength: "100" }
+          .state
+            %input{ name: "state", type: "text", required: "",
+                    placeholder: "State", maxlength: "50" }
+          .zip
+            %input{ name: "zip", type: "text", required: "",
+                    placeholder: "Zip", maxlength: "5" }
+      %fieldset
+        %legend Payment
+        %p Indicate your payment preference
+        %input#online{ name: "payment_type", type: "radio", value: "online" }
+        %label{ for: "online" } Online
+        %br
+        %input#check{ name: "payment_type", type: "radio", value: "check" }
+        %label{ for: "check" } Check
+
+      %input{ name: "_subject", type: "hidden",
+              value: "[getbiblefirst.com] Bulk Purchase Request" }
+      %input{ name: "_next", type: "hidden",
+              value: "//#{data.site.human_url}/purchase/thanks" }
+      %input{ name: "_gotcha", style: "display:none", type: "text" }
+      %input{ name: "_format", style: "display:none", type: "text",
+              value: "plain" }
+      %input{ type: "submit", value: "Submit" }

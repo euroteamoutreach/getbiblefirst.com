@@ -1,3 +1,52 @@
-%section.purchase
-  %h1 Purchase
-  %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+title: Purchase Bible First
+---
+
+%section.page-content
+  %h1 Purchase Bible First
+  %p
+    Bible First books are distributed by
+    = succeed "." do
+      = link_to "No Greater Joy Ministries", "http://nogreaterjoy.org/"
+    You may purchase individual books or complete sets. Volume discounts are
+    also available.
+  %p
+    To order by phone, call
+    = succeed "." do
+      %strong 1-866-292-9936
+    To purchase online, select a product from the listing below.
+    Clicking any of the purchase buttons will redirect you to No Greater Joy's
+    online store.
+
+  %ul.product-blocks
+    - data.volumes.each do |volume|
+      = partial "product", locals: { volume: volume }
+
+  .complete-set
+    %ul.complete-set-inner
+      %li.block
+        = image_tag "volume1-500w.jpg", class: "vol1"
+      %li.block
+        = image_tag "volume2-500w.jpg", class: "vol2"
+      %li.block
+        = image_tag "volume3-500w.jpg", class: "vol3"
+      %li.block
+        = image_tag "volume4-500w.jpg", class: "vol4"
+      %li.block
+        = image_tag "volume5-500w.jpg", class: "vol5"
+      %li.block
+        = image_tag "volume6-500w.jpg", class: "vol6"
+    %h5
+      Bible First Complete Set
+      %br
+      %small (Six Volumes)
+    = link_to("http://nogreaterjoy.org/shop/bible-first-complete-set",
+      class: "button", target: "_blank") do
+      = content_tag :button, "Purchase"
+
+  .callout-box
+    %h1 Bulk Purchases
+    %p
+      If you would like to purchase 50 or more copies, please fill out our
+      = succeed "." do
+        = link_to "bulk order form", "/purchase/bulk"

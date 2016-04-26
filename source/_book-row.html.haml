@@ -1,0 +1,8 @@
+.books-form-row
+  .book-label
+    %p Volume #{volume.number}:
+  .book-qty
+    %input{ name: "volume_#{volume.number}_quantity", type: "number", required: "",
+          placeholder: "0", maxlength: "3" }
+  .book-copies
+    %p copies

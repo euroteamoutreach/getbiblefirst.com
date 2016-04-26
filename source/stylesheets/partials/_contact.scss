@@ -1,17 +1,9 @@
 .contact {
-  .page-content {
-    @include outer-container;
-    padding: 3em 1em;
-    width: em(600);
-
-    > p {
-      margin-bottom: 2em;
-    }
-  }
 }
 
 .contact-form {
   background-color: $white;
   border-radius: $base-border-radius;
   padding: 2em;
+  width: em(500);
 }
