@@ -23,11 +23,12 @@
 
   .footer-logo {
     @include span-columns(4);
-    padding: 0 2em;
+    padding: 0;
+    text-align: right;
 
     .logo {
       height: 70%;
-      width: 100%;
+      width: 300px;
     }
   }
 
