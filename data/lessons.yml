@@ -13,46 +13,22 @@ lesson1:
 lesson2:
   number: 2
   overview_points:
-    p1: First point
-    p2: Second point
-    p3: Third point
+    p1: The Attributes of God
+    p2: The Character of God
+    p3: God in Three Persons
   intro: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
+    <p>The primary goal of the Bible is to introduce the reader to the Author. God Almighty, the Creator of all that is, desires that we would have a personal relationship with Him. In order for us to know Him, God has provided an accurate picture of who He is in the Bible. Although it is impossible to thoroughly explore God in only one lesson, this study will provide a general introduction to God’s nature.</p>
 
 lesson3:
   number: 3
   overview_points:
-    p1: First point
-    p2: Second point
-    p3: Third point
+    p1: "The Many Kinds of Spirit Beings"
+    p2: "The Power and Limitations of the Angels"
+    p3: "Lucifer: God’s Anointed Cherub"
+    p4: "The Fall of the Angels"
+    p5: "The Future of the Angels"
   intro: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
+    <p>A dedicated student of the Bible soon realizes that an ongoing spiritual war is being fought between the forces of God and the armies of evil. It is clear that beyond our ability to see or comprehend, there exists a spirit realm in which plans are formed, battles waged, petitions made, and which positively or negatively affects the affairs of men. </p>
 
 lesson4:
   number: 4
