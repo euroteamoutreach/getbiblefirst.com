@@ -1,6 +1,11 @@
-- current_page.data.title = data.lesson_titles.lesson19
+- current_page.data.title = data.lessons.lesson19.title
 
 .page-content
   - lesson = data.lessons.lesson19
   = partial "lesson-breadcrumbs", locals: { lesson: lesson }
-  = partial "lesson", locals: { lesson: lesson }
+
+  %section.lessonx
+    %aside.lessonx-image
+      = image_tag "lesson19-500w.jpg"
+    %article.lessonx-content
+      = partial "markdown/lesson19"

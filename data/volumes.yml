@@ -1,5 +1,5 @@
 - number: 1
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings."
   lessons:
     lesson1: "lesson1"
     lesson2: "lesson2"
@@ -7,7 +7,7 @@
   ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-1"
 
 - number: 2
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "The second volume of Bible First begins the chronological journey through Genesis. Primary topics are Creation,  and Adam and Eve’s life in the Garden of Eden."
   lessons:
     lesson4: "lesson4"
     lesson5: "lesson5"
@@ -15,7 +15,7 @@
   ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-2"
 
 - number: 3
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "Volume 3 begins with man’s fall into sin, and moves from there to the Genesis prophecy about the coming of Messiah. Next is the story of Cain and Abel which introduces the doctrine of blood atonement. The book concludes with the story of Noah and the flood."
   lessons:
     lesson7: "lesson7"
     lesson8: "lesson8"
@@ -24,7 +24,7 @@
   ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-3"
 
 - number: 4
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "Volume 4 introduces Abraham and his walk of faith with God. In particular, the doctrine of imputed righteousness is thoroughly explored. Also included is the account of Sodom and Gomorrah."
   lessons:
     lesson11: "lesson11"
     lesson12: "lesson12"
@@ -32,7 +32,7 @@
   ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-4"
 
 - number: 5
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "The fifth volume of Bible First covers the lives of two of the great patriarchs: Issac and Jacob. Major themes include the doctrine of substitution, the continuation of God’s covenant with Abraham, and the birth of the nation of Israel."
   lessons:
     lesson14: "lesson14"
     lesson15: "lesson15"
@@ -41,7 +41,7 @@
   ngj_link: "http://nogreaterjoy.org/shop/bible-first-volume-5"
 
 - number: 6
-  content: The opening volume of Bible First is introductory in nature, covering basic topics such as the origins of the Bible, the nature of God and spirit beings.
+  content: "The sixth and final volume of Bible First covers the life of Joseph, paying particular attention to his example of forgiveness. Also highlighted is Judah’s example of intercession as a type of Christ. The final lesson in the book provides a recap of the entire course, a clear call to faith in Christ, and a study of the believer’s position in Christ."
   lessons:
     lesson18: "lesson18"
     lesson19: "lesson19"
