@@ -1,17 +1,24 @@
-.purchase {
-}
-
 .product-blocks {
   @include outer-container;
 
   .block {
-    @include span-columns(4);
+    @include span-columns(4 of 12);
     @include omega(3n);
     border: 1px solid $subtle-gray;
     border-radius: $base-border-radius;
     margin-bottom: 2em;
     padding: 1em;
     text-align: center;
+
+    @include media($tablet-portrait) {
+      @include span-columns(4 of 8);
+      @include omega-reset(3n, 8);
+      @include omega(2n);
+    }
+
+    @include media($phone-portrait) {
+      width: 100%;
+    }
 
     img {
       border-radius: 2px;
