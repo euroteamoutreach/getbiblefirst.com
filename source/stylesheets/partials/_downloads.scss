@@ -8,10 +8,6 @@
   @include media ($phone-landscape) {
     padding: 1em;
     width: 100%;
-
-    li > a {
-      font-size: 0.8em;
-    }
   }
 
   h4 {
@@ -30,10 +26,6 @@
         border-bottom: 0;
       }
     }
-  }
-
-  p {
-    font-size: 75%;
   }
 
   i {
