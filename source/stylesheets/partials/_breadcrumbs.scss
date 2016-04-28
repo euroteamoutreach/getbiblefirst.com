@@ -2,10 +2,10 @@
   margin-bottom: 2em;
 
   li {
-    display: inline;
-    text-transform: uppercase;
-    font-size: 0.6em;
     color: $medium-gray;
+    display: inline;
+    font-size: 0.6em;
+    text-transform: uppercase;
 
     a {
       border-bottom: 1px solid $primary-blue;
@@ -22,9 +22,7 @@
     color: $base-border-color;
     content: "/";
     margin: 0 0.6em 0 1.1em;
-    // opacity: 1;
     position: relative;
-    // top: 1px;
   }
 }
 
@@ -32,11 +30,11 @@
   float: right;
 
   a {
-    text-transform: uppercase;
+    border-bottom: 1px solid $primary-blue;
     font-size: 0.6em;
     font-weight: 300;
-    border-bottom: 1px solid $primary-blue;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:focus,
     &:hover {

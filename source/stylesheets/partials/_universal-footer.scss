@@ -8,6 +8,10 @@
   padding: ($base-spacing * 2) $gutter 1.6em;
   width: 100%;
 
+  @include media ($phone-landscape) {
+    padding: 1.6em;
+  }
+
   .footer-content {
     @include outer-container;
   }
