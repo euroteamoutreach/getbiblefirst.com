@@ -46,12 +46,12 @@
 
       @include media ($phone-landscape) {
         border-radius: 3px;
-        width: 6em;
+        width: 5em;
       }
 
       @include media ($phone-portrait) {
         border-radius: 2px;
-        width: 4em;
+        width: 3em;
       }
     }
 
@@ -66,7 +66,7 @@
 
     @include media ($phone-portrait) {
       h4 {
-        font-size: 1.1em;
+        font-size: 1em;
       }
     }
 
@@ -75,7 +75,7 @@
       margin-bottom: 0.5em;
     }
 
-    p.volume-detail {
+    .volume-detail {
       color: $volume-detail-color;
       font-size: 0.9em;
       font-style: italic;
@@ -84,7 +84,7 @@
     ul {
       list-style-type: disc;
       margin-top: 1em;
-      padding-left: 1em;
+      padding-left: 1.5em;
 
       li {
         margin-bottom: 0.5em;
