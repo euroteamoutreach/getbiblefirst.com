@@ -15,10 +15,37 @@
   .footer-links-left {
     @include span-columns(2);
     @include shift(2);
+
+    @include media ($tablet-portrait) {
+      @include span-columns(2);
+      @include shift(2);
+    }
+
+    @include media ($phone-landscape) {
+      @include span-columns(3);
+      @include shift(1);
+    }
+
+    @include media ($phone-portrait) {
+      @include shift(0);
+      width: 100%;
+    }
   }
 
   .footer-links-right {
     @include span-columns(2);
+
+    @include media ($tablet-portrait) {
+      @include span-columns(2);
+    }
+
+    @include media ($phone-landscape) {
+      @include span-columns(3);
+    }
+
+    @include media ($phone-portrait) {
+      width: 100%;
+    }
   }
 
   .footer-logo {
@@ -26,9 +53,22 @@
     padding: 0;
     text-align: right;
 
+    @include media ($tablet-portrait) {
+      @include span-columns(8);
+      text-align: center;
+    }
+
     .logo {
       height: 70%;
       width: 300px;
+
+      @include media ($tablet-landscape) {
+        width: 250px;
+      }
+
+      @include media ($phone-portrait) {
+        width: 200px;
+      }
     }
   }
 
@@ -43,6 +83,10 @@
     line-height: 1.5em;
     list-style: none;
     text-align: left;
+
+    @include media ($tablet-portrait) {
+      text-align: center;
+    }
 
     a {
       color: $footer-link-color;
@@ -85,6 +129,14 @@
       &:hover {
         border-bottom: 0;
       }
+    }
+  }
+
+  .link-break {
+    display: none;
+
+    @include media ($phone-portrait) {
+      display: block;
     }
   }
 }
