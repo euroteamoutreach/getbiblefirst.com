@@ -47,10 +47,12 @@ title: Bulk Orders
       %fieldset
         %legend Payment
         %p Indicate your payment preference
-        %input#online{ name: "payment_type", type: "radio", value: "online" }
+        %input#online{ name: "payment_type", type: "radio", value: "online",
+                       required: "" }
         %label{ for: "online" } Online
         %br
-        %input#check{ name: "payment_type", type: "radio", value: "check" }
+        %input#check{ name: "payment_type", type: "radio", value: "check",
+                      required: "" }
         %label{ for: "check" } Check
 
       %input{ name: "_subject", type: "hidden",
