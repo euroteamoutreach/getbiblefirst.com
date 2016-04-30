@@ -78,6 +78,12 @@
       left: -80px;
       position: absolute;
       top: -20px;
+
+      @include media($phone-landscape) {
+        font-size: 100px;
+        left: -55px;
+        top: -14px;
+      }
     }
 
     .reference {
