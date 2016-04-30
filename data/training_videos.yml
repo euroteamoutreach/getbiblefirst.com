@@ -2,136 +2,136 @@ part-1:
   video-1:
     source: "https://player.vimeo.com/video/30985852?color=2196F3&title=0&byline=0&portrait=0"
     title: "Introduction"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "This video introduces the training series and Bible First in general."
   video-2:
     source: "https://player.vimeo.com/video/30985924?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Bible First Story"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "This video provides some important background information about Bible First."
   video-3:
     source: "https://player.vimeo.com/video/30986770?color=2196F3&title=0&byline=0&portrait=0"
     title: "Course Overview"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "This video provides a bird's-eye view of the course, and explains the basics of how it works."
   video-4:
     source: "https://player.vimeo.com/video/30986923?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Uniqueness of Genesis"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "This video talks about the unique qualities of the book of Genesis, and explains why it is the basis of Bible First."
   video-5:
     source: "https://player.vimeo.com/video/30987147?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Bible First Way"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "The power of Bible First is largely dependent on how you use it. This video explains what we mean by <em>doing things the Bible First way.</em>"
 
 part-2:
   video-1:
     source: "https://player.vimeo.com/video/31189640?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Bible First Core 10"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we introduce the 10 core principles which form the underlying ministry philosophy behind Bible First."
   video-2:
     source: "https://player.vimeo.com/video/31189767?color=2196F3&title=0&byline=0&portrait=0"
     title: "Use the Sword"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we discuss the foundational nature of the Word of God in evangelism."
   video-3:
     source: "https://player.vimeo.com/video/31189851?color=2196F3&title=0&byline=0&portrait=0"
     title: "Audience First"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we discuss the importance of first establishing a hearing with those to whom you are ministering."
   video-4:
     source: "https://player.vimeo.com/video/31190140?color=2196F3&title=0&byline=0&portrait=0"
     title: "Find the Numerous Few"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we talk about the importance of finding those who are open to the Gospel and focusing your ministry on that group of people."
   video-5:
     source: "https://player.vimeo.com/video/31190197?color=2196F3&title=0&byline=0&portrait=0"
     title: "Don't Block the Message"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we talk about how to avoid distracting your audience from the message you're trying to communicate to them."
   video-6:
     source: "https://player.vimeo.com/video/31723858?color=2196F3&title=0&byline=0&portrait=0"
     title: "Education Before Transformation"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we discuss the power of taking the time to teach sinners the Scriptures even before they're saved."
   video-7:
     source: "https://player.vimeo.com/video/31724353?color=2196F3&title=0&byline=0&portrait=0"
     title: "Truth Understood Over Time"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Most people don't repent the very first time they hear the Gospel. In this video, we'll explore the advantages of teaching truth over an extended period, giving people the time needed to understand and believe."
   video-8:
     source: "https://player.vimeo.com/video/31725249?color=2196F3&title=0&byline=0&portrait=0"
     title: "Stories Are Better"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "There are essentially two approaches to imparting information: lectures and story-telling. In this video, we'll discuss why the latter is a far more powerful medium for communicating the Gospel."
   video-9:
     source: "https://player.vimeo.com/video/31725444?color=2196F3&title=0&byline=0&portrait=0"
     title: "Write on the Blank Pages"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "It's always easier to teach someone something new than it is to correct misunderstood concepts. In this video, we'll discuss one of the big advantages of Genesis-centered teaching: for most people, the Old Testament is virgin territory. When you teach from there, you can write on blank pages."
   video-10:
     source: "https://player.vimeo.com/video/31725663?color=2196F3&title=0&byline=0&portrait=0"
     title: "Order is Essential"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "God reveals truth to men progressively. When possible, there is great benefit to teaching the Bible in the order it was given, starting with Genesis."
   video-11:
     source: "https://player.vimeo.com/video/31726038?color=2196F3&title=0&byline=0&portrait=0"
     title: "Friends are the Best Salesmen"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "When we attempt to present Christ to complete strangers, we have to overcome the natural skepticism that people feel towards those they don't know. Personal friends have a decise advantage here. In this video, we'll talk about the power of friends inviting friends to study the Scriptures with Bible First."
 
 part-3:
   video-1:
     source: "https://player.vimeo.com/video/35941400?color=2196F3&title=0&byline=0&portrait=0"
     title: "Introduction to Strategy"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Introductory remarks to part 3 of the series"
   video-2:
     source: "https://player.vimeo.com/video/35941521?color=2196F3&title=0&byline=0&portrait=0"
     title: "Strategy in Evangelism"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Why strategy is needful in evangelism"
   video-3:
     source: "https://player.vimeo.com/video/36836049?color=2196F3&title=0&byline=0&portrait=0"
     title: "Strategy vs. Methodology"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Here we discuss the importance of distinguishing between strategy and methodology."
   video-4:
     source: "https://player.vimeo.com/video/42814609?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Missing Link"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we discuss the importance of teaching sinners the Scriptures - even before they come to salvation."
   video-5:
     source: "https://player.vimeo.com/video/42814608?color=2196F3&title=0&byline=0&portrait=0"
     title: "The Four-Level Framework"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "A basic framework to help you build your own strategy for evangelism using Bible First! materials"
 
 part-4:
   video-1:
     source: "https://player.vimeo.com/video/42828015?color=2196F3&title=0&byline=0&portrait=0"
     title: "General Overview"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "A brief look at the basics of managing a correspondence course"
   video-2:
     source: "https://player.vimeo.com/video/42828016?color=2196F3&title=0&byline=0&portrait=0"
     title: "Materials"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "In this video, we'll look at the materials you'll need to have on hand to start a correspondence course."
 
 part-5:
   video-1:
     source: "https://player.vimeo.com/video/42828014?color=2196F3&title=0&byline=0&portrait=0"
     title: "Tools for Finding Students"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "How to find your first students"
   video-2:
     source: "https://player.vimeo.com/video/42862007?color=2196F3&title=0&byline=0&portrait=0"
     title: "Large-Scale Literature Campaigns"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "How to build your student base using literature campaigns"
   video-3:
     source: "https://player.vimeo.com/video/42862008?color=2196F3&title=0&byline=0&portrait=0"
     title: "What Kind of Literature Should You Use?"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Choosing the best type of literature for your campaign"
 
 part-6:
   video-1:
     source: "https://player.vimeo.com/video/42862010?color=2196F3&title=0&byline=0&portrait=0"
     title: "Enrollment"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "The basics of student enrollment, and sending and receiving lessons"
   video-2:
     source: "https://player.vimeo.com/video/42862011?color=2196F3&title=0&byline=0&portrait=0"
     title: "Grading"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "A look at the process of grading lessons"
 
 part-7:
   video-1:
     source: "https://player.vimeo.com/video/42862013?color=2196F3&title=0&byline=0&portrait=0"
     title: "Using a Spreadsheet"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "Using a spreadsheet to track your student records"
   video-2:
     source: "https://player.vimeo.com/video/42862777?color=2196F3&title=0&byline=0&portrait=0"
     title: "Backup"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "How to not lose your records :)"
   video-3:
     source: "https://player.vimeo.com/video/42862776?color=2196F3&title=0&byline=0&portrait=0"
     title: "CBC Admin"
-    summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    summary: "A brief look at the web-based application we use for managing our correspondence course in Ukraine."
