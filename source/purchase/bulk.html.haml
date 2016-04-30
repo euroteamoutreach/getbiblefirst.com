@@ -5,7 +5,9 @@ title: Bulk Orders
 .page-content
   %h1 Bulk Orders
   %p
-    Purchases of 50 copies or more are eligible for significant discounts. To receive a quote, please complete the form below.
+    Purchases of 50 copies or more are eligible for significant discounts.
+    To receive a quote, please complete the form below.
+    All fields are required.
 
   .bulk-purchase-form
     %form{ action: "https://formspree.io/#{data.site.orders_email}",
@@ -17,7 +19,7 @@ title: Bulk Orders
                 placeholder: "Name", maxlength: "100" }
         %input{ name: "_replyto", type: "email", required: "",
                 placeholder: "Email", maxlength: "100" }
-        %input{ name: "phone", type: "tel",
+        %input{ name: "phone", type: "tel", required: "",
                 placeholder: "Phone", maxlength: "100" }
 
       %fieldset
