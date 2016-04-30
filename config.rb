@@ -29,10 +29,9 @@ configure :build do
   #   host: "//cdn.cloudfront.net",
   #   rewrite_ignore: ["*.js"]
 
-  # set :url_root, "http://example.com"
-
   # https://github.com/Aupajo/middleman-search_engine_sitemap
-  # activate :search_engine_sitemap
+  set :url_root, "http://getbiblefirst.com"
+  activate :search_engine_sitemap
 
   ignore "stylesheets/site"
 end
