@@ -4,5 +4,5 @@
       %iframe{ allowfullscreen: "",
         frameborder: "0",
         mozallowfullscreen: "",
-        src: "#{data.training_videos[video[:part]][video[:number]].source}",
+        src: data.training_videos[video[:part]][video[:number]].source.to_s,
         webkitallowfullscreen: "" }

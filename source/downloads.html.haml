@@ -5,7 +5,9 @@ title: Downloads
 .page-content
   %h1 Downloads
 
-  %p The following are free PDF and Word files which you may download and print as you manage your Bible First course.
+  %p
+    The following are free PDF and Word files which you may download and print
+    as you manage your Bible First course.
 
   .download-segment
     %h4 Q&amp;A Booklets
@@ -13,7 +15,7 @@ title: Downloads
       - data.files.qa_booklets.each do |booklet|
         = partial "qa-booklet", locals: { booklet: booklet }
     = link_to("#", class: "back-to-top") do
-      %i.fa.fa-sort-asc{"aria-hidden" => "true"}
+      %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
 
   .download-segment
@@ -22,7 +24,7 @@ title: Downloads
       - data.files.answer_keys.each do |booklet|
         = partial "answer-key", locals: { booklet: booklet }
     = link_to("#", class: "back-to-top") do
-      %i.fa.fa-sort-asc{"aria-hidden" => "true"}
+      %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
 
   .download-segment
@@ -31,18 +33,19 @@ title: Downloads
       - data.files.accessory_docs.each do |doc|
         = partial "accessory-doc", locals: { doc: doc }
     = link_to("#", class: "back-to-top") do
-      %i.fa.fa-sort-asc{"aria-hidden" => "true"}
+      %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
 
   .download-segment
     %h4 Certificates
     %p
-      NOTE: In order for the editable certifcates below to display properly when opened in Microsoft Word, you will need to download and install the
+      NOTE: In order for the editable certifcates below to display properly
+      when opened in Microsoft Word, you will need to download and install the
       = link_to "CyrillicGoth", "/files/CyrillicGoth.ttf"
       font.
     %ul.fa-ul
       - data.files.certificates.each do |cert|
         = partial "certificate", locals: { cert: cert }
     = link_to("#", class: "back-to-top") do
-      %i.fa.fa-sort-asc{"aria-hidden" => "true"}
+      %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top

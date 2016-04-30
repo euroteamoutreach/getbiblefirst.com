@@ -3,8 +3,9 @@
     %ul
       %li= link_to "Home", "/"
       %li= link_to "Training Videos", "/training#video-start"
-      %li= link_to "#{video[:part].titleize}", "/training/videos/#{video[:part]}"
-      %li= "#{video[:number].titleize}"
+      %li= link_to video[:part].titleize.to_s,
+        "/training/videos/#{video[:part]}"
+      %li= video[:number].titleize.to_s
 
   %nav.next-link
     - unless last_video?(video)
