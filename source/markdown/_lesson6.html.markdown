@@ -1,6 +1,9 @@
 ### Lesson 6: Adam and Eve
 
-* The Garden of Eden* The First Man and Woman* Adam and Eve’s Design and Responsibilities* The Establishment of Marriage and Family
+* The Garden of Eden
+* The First Man and Woman
+* Adam and Eve&apos;s Design and Responsibilities
+* The Establishment of Marriage and Family
 
 #### Introduction
 

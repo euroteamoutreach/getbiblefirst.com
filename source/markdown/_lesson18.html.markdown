@@ -1,6 +1,11 @@
 ### Lesson 18: Joseph, Part 1
 
-* Joseph the Dreamer* Joseph is Sold into Slavery* Tamar: Ancestor of the Messiah* Joseph's Rise to Power* The Great Famine* Joseph: A Forerunner of Christ
+* Joseph the Dreamer
+* Joseph is Sold into Slavery
+* Tamar: Ancestor of the Messiah
+* Joseph&apos;s Rise to Power
+* The Great Famine
+* Joseph: A Forerunner of Christ
 
 #### Introduction
 

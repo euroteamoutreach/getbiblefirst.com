@@ -1,6 +1,10 @@
 ### Lesson 3: God Created the Spirit Beings
 
-* The Many Kinds of Spirit Beings* The Power and Limitations of the Angels* Lucifer: God’s Anointed Cherub* The Fall of the Angels* The Future of the Angels
+* The Many Kinds of Spirit Beings
+* The Power and Limitations of the Angels
+* Lucifer: God&apos;s Anointed Cherub
+* The Fall of the Angels
+* The Future of the Angels
 
 #### Introduction
 

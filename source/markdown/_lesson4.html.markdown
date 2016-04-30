@@ -1,6 +1,11 @@
 ### Lesson 4: Creation, Part 1
 
-* The Book of Genesis* The Eternal Creator* God Creates Light* God Creates the Firmament* God Creates Dry Land and Plant Life* God’s Intricate Design
+* The Book of Genesis
+* The Eternal Creator
+* God Creates Light
+* God Creates the Firmament
+* God Creates Dry Land and Plant Life
+* God&apos;s Intricate Design
 
 #### Introduction
 
