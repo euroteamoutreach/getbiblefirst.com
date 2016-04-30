@@ -9,6 +9,7 @@
               linear-gradient($gradient-angle,
               $hero-background-bottom, $hero-background-top),
               no-repeat $hero-background-top scroll;
+  background-color: $hero-default-background;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,17 +22,41 @@
     padding: 5em;
     text-align: center;
 
+    @include media($tablet-portrait) {
+      padding: 3em;
+    }
+
+    @include media($tablet-small) {
+      padding: 3em 1em;
+    }
+
     .hero-copy {
       text-align: center;
 
       h3 {
         color: $white;
         margin-bottom: 0;
+
+        @include media($tablet-small) {
+          font-size: 1.5em;
+        }
+
+        @include media($phone-portrait) {
+          font-size: 1.2em;
+        }
       }
 
       p {
         color: $white;
         margin-bottom: 2.5em;
+
+        @include media($tablet-small) {
+          font-size: 0.9em;
+        }
+
+        @include media($phone-portrait) {
+          font-size: 0.7em;
+        }
       }
     }
 
@@ -45,6 +70,10 @@
       &:hover,
       &:focus {
         background-color: shade($white, 50%);
+      }
+
+      @include media($tablet-portrait) {
+        font-size: 1em;
       }
     }
   }

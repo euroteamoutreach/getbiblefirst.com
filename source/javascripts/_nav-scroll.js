@@ -11,11 +11,11 @@ $(window).scroll(function(){
   var scroll = $(window).scrollTop();
 
   if ($("body").hasClass("index")) {
-    if (scroll > 300 ) {
+    if (scroll > 250 ) {
       $("header").addClass("is-visible");
     }
 
-    if (scroll <= 300 ) {
+    if (scroll <= 250 ) {
       $("header").removeClass("is-visible");
     }
   }

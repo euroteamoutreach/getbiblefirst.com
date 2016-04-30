@@ -1,3 +1,9 @@
+.downloads {
+  .page-content {
+    padding: 3em 2em 1em;
+  }
+}
+
 .download-segment {
   @include span-columns(8);
   background-color: $white;
