@@ -2,7 +2,8 @@
   .footer-content
     .footer-links-left
       %ul
-        %li= link_to "Overview", overview_smart_path(current_page.path)
+        %li= link_to "Overview", overview_smart_path(current_page.path),
+          class: "scroll scroll-on-page-link"
         %li= link_to "The Lessons", "/lessons"
         %li= link_to "Training", "/training"
         %li= link_to "Videos", "/training#video-start"
@@ -18,4 +19,5 @@
   %hr
   %p
     Bible First is a ministry of
-    = link_to "Euro Team Outreach, Inc.", "http://www.euroteamoutreach.org"
+    %br.link-break
+      = link_to "Euro Team Outreach, Inc.", "http://www.euroteamoutreach.org"

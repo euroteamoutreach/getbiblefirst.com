@@ -3,14 +3,14 @@
 
   background-color: transparentize($primary-blue-light, 0.6);
   border: 1px solid lighten($callout-box-color, 40%);
-  text-align: center;
-  padding: 1em;
   border-radius: $base-border-radius;
+  padding: 1em;
+  text-align: center;
 
   h1 {
-    font-size: $h4-font-size;
-    color: $callout-box-color;
     border-bottom: 5px solid transparentize($callout-box-color, 0.8);
+    color: $callout-box-color;
+    font-size: $h4-font-size;
     padding-bottom: 0.2em;
   }
 

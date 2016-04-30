@@ -3,13 +3,39 @@
   .page-content {
     padding: 1em;
 
-    h3 { margin-bottom: 0; }
+    h3 {
+      margin-bottom: 0;
+
+      @include media($phone-landscape) {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  .breadcrumbs-row {
+    @include clearfix;
+
+    .breadcrumbs {
+      float: left;
+
+      @include media($phone-portrait) {
+        float: none;
+        margin-bottom: 1em;
+      }
+    }
+
+    .next-link {
+      @include media($phone-portrait) {
+        float: none;
+        margin-bottom: 2em;
+      }
+    }
   }
 
   .movie-hero {
-    background-color: #000;
-    width: 100%;
+    background-color: $black;
     opacity: 0.98;
+    width: 100%;
   }
 
   .video {
@@ -35,4 +61,3 @@
     }
   }
 }
-

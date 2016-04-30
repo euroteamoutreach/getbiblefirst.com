@@ -1,22 +1,22 @@
 .copyright-footer {
   $base-spacing: 1.5em;
   $footer-background: desaturate(darken($medium-gray, 20%), 30%);
-  $footer-color: white;
+  $footer-color: $white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
-  font-size: $h6-font-size;
   background: $footer-background;
+  color: $medium-gray;
+  display: inline-block;
+  font-size: $h6-font-size;
   padding: $base-spacing;
   width: 100%;
-  display: inline-block;
-  color: $medium-gray;
 
   p {
     font-family: $base-font-family;
-    line-height: 1.5em;
-    margin: 0 0 1em 0;
-    padding: 0;
     font-weight: 400;
+    line-height: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
 
     @include media($large-screen) {
       float: left;
@@ -24,13 +24,14 @@
       margin-bottom: 0;
     }
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       font-size: 0.8em;
     }
 
     a {
       color: inherit;
       text-decoration: underline;
+
       &:focus,
       &:hover {
         text-decoration: none;
@@ -47,8 +48,8 @@
       font-size: 0.8em;
     }
 
-    ul.footer-social {
-      margin: 1em 0 0 0;
+    .footer-social {
+      margin: 1em 0 0;
 
       @include media($large-screen) {
         float: right;
@@ -56,8 +57,8 @@
       }
 
       li {
-        font-size: 1em;
         float: left;
+        font-size: 1em;
         line-height: 0;
         margin: 0;
         padding-right: 0.7em;

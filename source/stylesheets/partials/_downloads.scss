@@ -1,12 +1,20 @@
 .downloads {
+  .page-content {
+    padding: 3em 2em 1em;
+  }
 }
 
 .download-segment {
   @include span-columns(8);
-  padding: 2em;
   background-color: $white;
-  margin-bottom: 1em;
   border-radius: $base-border-radius;
+  margin-bottom: 1em;
+  padding: 2em;
+
+  @include media($phone-landscape) {
+    padding: 1em;
+    width: 100%;
+  }
 
   h4 {
     margin-bottom: 0.3em;
@@ -26,10 +34,6 @@
     }
   }
 
-  p {
-    font-size: 75%;
-  }
-
   i {
     line-height: 1.4em;
   }
@@ -39,7 +43,7 @@
   }
 
   .fa-file-word-o {
-    color: #3377AF;
+    color: $ms-word-blue;
   }
 
   .back-to-top {

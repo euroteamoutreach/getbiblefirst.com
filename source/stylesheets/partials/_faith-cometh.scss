@@ -5,10 +5,64 @@
   position: relative;
   width: 100%;
 
+  @include media($tablet-landscape) {
+    padding: 1em 4em 0;
+  }
+
+  @include media($tablet-portrait) {
+    padding: 2em 4em 0;
+  }
+
+  @include media($phone-landscape) {
+    padding: 2em 2em 0 4em;
+  }
+
+  @include media($phone-portrait) {
+    padding: 1em 1em 0 3em;
+  }
+
   .faith-cometh-content {
-    @include span-columns(8);
-    padding-top: 2em;
+    @include span-columns(8 of 12);
     padding-bottom: 4em;
+    padding-top: 2em;
+
+    @include media($tablet-landscape) {
+      padding-bottom: 2em;
+      padding-top: 3em;
+    }
+
+    @include media($tablet-mid) {
+      @include span-columns(7 of 12);
+
+      h3 {
+        font-size: 1.3em;
+      }
+
+      p {
+        font-size: 0.9em;
+      }
+    }
+
+    @include media($tablet-portrait) {
+      padding-bottom: 1em;
+      padding-top: 0;
+    }
+
+    @include media($tablet-small) {
+      @include span-columns(4 of 8);
+
+      h3 {
+        font-size: 1.1em;
+      }
+
+      p {
+        font-size: 0.8em;
+      }
+    }
+
+    @include media($phone-landscape) {
+      @include span-columns(6 of 8);
+    }
 
     .quote {
       margin: 0;
@@ -31,13 +85,44 @@
       display: block;
       font-size: 0.9em;
       margin-bottom: 1em;
+
+      @include media($phone-landscape) {
+        font-size: 0.7em;
+      }
     }
   }
 
   img {
-    position: absolute;
     bottom: 0;
+    position: absolute;
     right: 3em;
     width: 300px;
+
+    @include media($tablet-landscape) {
+      width: 275px;
+    }
+
+    @include media($tablet-portrait) {
+      width: 250px;
+    }
+
+    @include media($phone-landscape) {
+      display: none;
+    }
+  }
+
+  .image-3d-full {
+    display: none;
+
+    @include media($phone-landscape) {
+      @include span-columns(2 of 8);
+
+      img {
+        display: block;
+        float: right;
+        position: static;
+        width: 100%;
+      }
+    }
   }
 }

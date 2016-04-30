@@ -1,23 +1,31 @@
 .earthscape-hero {
-  $hero-background-top: #7F99BE;
-  $hero-background-bottom: #20392B;
-  $hero-color: white;
+  $hero-background-top: #7f99be;
+  $hero-background-bottom: #20392b;
+  $hero-color: $white;
   $gradient-angle: 10deg;
   $hero-image: "#{$assets-images-path}earthscape.png";
 
   background: url($hero-image),
               linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
               no-repeat $hero-background-top scroll;
-  background-color: #324766;
+  background-color: $hero-default-background;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em;
   position: relative;
 
+  @include media($phone-landscape) {
+    padding-bottom: 1.5em;
+  }
+
   .link-target {
     position: absolute;
     top: -68px;
+
+    @include media($phone-landscape) {
+      top: -53px;
+    }
   }
 
   .hero-inner {
@@ -27,16 +35,36 @@
     padding: 6em 2em 0.5em;
     text-align: center;
 
+    @include media($phone-landscape) {
+      padding: 4em 2em 0.5em;
+    }
+
+    @include media($phone-portrait) {
+      padding: 3em 1em 0;
+    }
+
     .hero-copy {
       text-align: center;
 
       h1 {
+        border-bottom: 0;
         color: $hero-color;
         font-size: 2.6em;
-        border-bottom: 0;
 
         @include media($large-screen) {
           font-size: 3.3em;
+        }
+
+        @include media($tablet-portrait) {
+          font-size: 2.2em;
+        }
+
+        @include media($phone-landscape) {
+          font-size: 1.9em;
+        }
+
+        @include media($phone-portrait) {
+          font-size: 1.4em;
         }
       }
     }

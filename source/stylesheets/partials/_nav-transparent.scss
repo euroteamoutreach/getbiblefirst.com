@@ -5,7 +5,7 @@ $navigation-color: $primary-blue;
 $navigation-color-hover: $primary-blue;
 $navigation-height: 70px;
 $navigation-height-mobile: 55px;
-$navigation-active-link-color: red;
+$navigation-active-link-color: $primary-blue;
 $horizontal-bar-mode: $medium-screen;
 
 .nav-transparent {
@@ -16,7 +16,7 @@ $horizontal-bar-mode: $medium-screen;
   width: 100%;
   z-index: 999;
 
-  @include media ($horizontal-bar-mode) {
+  @include media($horizontal-bar-mode) {
     min-height: $navigation-height;
   }
 
@@ -33,19 +33,19 @@ $horizontal-bar-mode: $medium-screen;
     position: absolute;
     top: 0;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       margin-left: 0.7em;
       max-height: $navigation-height;
       width: 52px;
     }
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       margin-left: 0.7em;
       max-height: $navigation-height;
       width: 52px;
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       margin-left: 7px;
       max-height: $navigation-height-mobile;
       width: 40px;
@@ -54,15 +54,15 @@ $horizontal-bar-mode: $medium-screen;
     .svg-logo {
       width: 100%;
 
-      @include media ($horizontal-bar-mode) {
+      @include media($horizontal-bar-mode) {
         max-height: $navigation-height;
       }
 
-      @include media ($tablet-portrait) {
+      @include media($tablet-portrait) {
         max-height: $navigation-height;
       }
 
-      @include media ($phone-landscape) {
+      @include media($phone-landscape) {
         max-height: $navigation-height-mobile;
       }
     }
@@ -77,18 +77,18 @@ $horizontal-bar-mode: $medium-screen;
     font-size: 1.5em;
     line-height: $navigation-height-mobile;
     margin: 0;
-    padding: 0 1em;
+    padding: 0 0.7em;
     text-decoration: none;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       display: none;
     }
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       line-height: $navigation-height;
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       line-height: $navigation-height-mobile;
     }
 
@@ -105,25 +105,25 @@ $horizontal-bar-mode: $medium-screen;
     min-height: $navigation-height-mobile;
     z-index: 9999999;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       float: right;
       min-height: $navigation-height;
     }
   }
 
-  ul.navigation-menu {
+  .navigation-menu {
     clear: both;
     display: none;
     font-family: $base-font-family;
-    font-weight: 300;
     font-size: 0.9em;
+    font-weight: 300;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
     z-index: 9999;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       display: inline;
       margin: 0;
       padding: 0;
@@ -136,7 +136,7 @@ $horizontal-bar-mode: $medium-screen;
 
   // The nav items
 
-  ul li.nav-link {
+  ul .nav-link {
     background: transparentize($white, 0.1);
     border-bottom: 1px solid transparentize($dark-gray, 0.8);
     display: block;
@@ -146,7 +146,7 @@ $horizontal-bar-mode: $medium-screen;
     width: 100%;
     z-index: 9999;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       background: $navigation-background;
       border-bottom: 0;
       display: inline;
@@ -169,7 +169,7 @@ $horizontal-bar-mode: $medium-screen;
       line-height: 56px;
       text-decoration: none;
 
-      @include media ($horizontal-bar-mode) {
+      @include media($horizontal-bar-mode) {
         color: $navigation-color;
 
         &:focus,
