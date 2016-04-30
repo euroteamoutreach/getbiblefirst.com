@@ -24,17 +24,16 @@ configure :build do
     source: ".tmp",
     latency: 1
 
-  # activate :asset_hash
-  # activate :asset_host,
-  #   host: "//cdn.cloudfront.net",
-  #   rewrite_ignore: ["*.js"]
-
-  # https://github.com/Aupajo/middleman-search_engine_sitemap
-  set :url_root, "http://getbiblefirst.com"
-  activate :search_engine_sitemap
+  activate :asset_hash
+  activate :asset_host,
+    host: "//d1ie4g6xsu4sds.cloudfront.net"
 
   ignore "stylesheets/site"
 end
+
+# https://github.com/Aupajo/middleman-search_engine_sitemap
+set :url_root, "http://getbiblefirst.com"
+activate :search_engine_sitemap
 
 # https://github.com/fredjean/middleman-s3_sync
 activate :s3_sync do |s3|
