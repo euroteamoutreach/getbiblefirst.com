@@ -25,6 +25,14 @@ module CustomHelpers
     end
   end
 
+  def smart_robots
+    if !!(current_page.path =~ /thanks/)
+      "noindex, nofollow"
+    else
+      "index, follow"
+    end
+  end
+
   def add_visible_class
     unless !!(current_page.path =~ /index/)
       " is-visible"
