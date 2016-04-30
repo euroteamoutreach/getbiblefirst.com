@@ -8,7 +8,7 @@
   padding: ($base-spacing * 2) $gutter 1.6em;
   width: 100%;
 
-  @include media ($phone-landscape) {
+  @include media($phone-landscape) {
     padding: 1.6em;
   }
 
@@ -20,17 +20,17 @@
     @include span-columns(2);
     @include shift(2);
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       @include span-columns(2);
       @include shift(2);
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       @include span-columns(3);
       @include shift(1);
     }
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       @include shift(0);
       width: 100%;
     }
@@ -39,15 +39,15 @@
   .footer-links-right {
     @include span-columns(2);
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       @include span-columns(2);
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       @include span-columns(3);
     }
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       width: 100%;
     }
   }
@@ -57,7 +57,7 @@
     padding: 0;
     text-align: right;
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       @include span-columns(8);
       text-align: center;
     }
@@ -66,11 +66,11 @@
       height: 70%;
       width: 300px;
 
-      @include media ($tablet-landscape) {
+      @include media($tablet-landscape) {
         width: 250px;
       }
 
-      @include media ($phone-portrait) {
+      @include media($phone-portrait) {
         width: 200px;
       }
     }
@@ -88,7 +88,7 @@
     list-style: none;
     text-align: left;
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       text-align: center;
     }
 
@@ -139,7 +139,7 @@
   .link-break {
     display: none;
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       display: block;
     }
   }

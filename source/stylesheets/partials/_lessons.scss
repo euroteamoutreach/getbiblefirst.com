@@ -13,7 +13,7 @@
   padding-bottom: 2.7em;
   width: 100%;
 
-  @include media ($phone-landscape) {
+  @include media($phone-landscape) {
     margin-bottom: 2em;
     padding-bottom: 1.7em;
   }
@@ -32,7 +32,7 @@
   .volume-image {
     padding-right: $volume-gutter;
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       padding-right: 1em;
     }
 
@@ -44,12 +44,12 @@
       max-width: none;
       width: $volume-image-width;
 
-      @include media ($phone-landscape) {
+      @include media($phone-landscape) {
         border-radius: 3px;
         width: 5em;
       }
 
-      @include media ($phone-portrait) {
+      @include media($phone-portrait) {
         border-radius: 2px;
         width: 3em;
       }
@@ -64,7 +64,7 @@
   .volume-content {
     width: 100%;
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       h4 {
         font-size: 1em;
       }

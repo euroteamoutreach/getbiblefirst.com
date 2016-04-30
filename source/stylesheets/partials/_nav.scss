@@ -5,18 +5,22 @@ $navigation-color: $primary-blue;
 $navigation-color-hover: $primary-blue;
 $navigation-height: 70px;
 $navigation-height-mobile: 55px;
-$navigation-active-link-color: red;
+$navigation-active-link-color: $primary-blue;
 $horizontal-bar-mode: $medium-screen;
 
 .navigation {
+  @include position(fixed);
+  @include transform(translateY(-110%));
 
   background-color: $navigation-background;
+  box-shadow: 0 2px 10px -5px darken($medium-gray, 10%);
   min-height: $navigation-height-mobile;
   width: 100%;
   z-index: 999;
-  box-shadow: 0 2px 10px -5px darken($medium-gray, 10%);
-  @include position(fixed);
-  @include transform(translateY(-110%));
+
+  @include media($horizontal-bar-mode) {
+    min-height: $navigation-height;
+  }
 
   &.transition {
     @include transition(all 0.15s linear);
@@ -24,10 +28,6 @@ $horizontal-bar-mode: $medium-screen;
 
   &.is-visible {
     @include transform(translateY(0));
-  }
-
-  @include media ($horizontal-bar-mode) {
-    min-height: $navigation-height;
   }
 
   .navigation-wrapper {
@@ -39,23 +39,23 @@ $horizontal-bar-mode: $medium-screen;
 
   .logo {
     float: left;
-    position: absolute;
     left: 0;
+    position: absolute;
     top: 0;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       margin-left: 0.7em;
       max-height: $navigation-height - 1;
       width: 52px;
     }
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       margin-left: 0.7em;
       max-height: $navigation-height - 1;
       width: 52px;
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       margin-left: 7px;
       max-height: $navigation-height-mobile;
       width: 40px;
@@ -64,13 +64,15 @@ $horizontal-bar-mode: $medium-screen;
     .svg-logo {
       width: 100%;
 
-      @include media ($horizontal-bar-mode) {
+      @include media($horizontal-bar-mode) {
         max-height: $navigation-height;
       }
-      @include media ($tablet-portrait) {
+
+      @include media($tablet-portrait) {
         max-height: $navigation-height;
       }
-      @include media ($phone-landscape) {
+
+      @include media($phone-landscape) {
         max-height: $navigation-height-mobile;
       }
     }
@@ -82,21 +84,21 @@ $horizontal-bar-mode: $medium-screen;
     color: $navigation-color;
     display: block;
     float: right;
+    font-size: 1.5em;
     line-height: $navigation-height-mobile;
     margin: 0;
     padding: 0 0.7em;
     text-decoration: none;
-    font-size: 1.5em;
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       display: none;
     }
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       line-height: $navigation-height;
     }
 
-    @include media ($phone-landscape) {
+    @include media($phone-landscape) {
       line-height: $navigation-height-mobile;
     }
 
@@ -113,48 +115,48 @@ $horizontal-bar-mode: $medium-screen;
     min-height: $navigation-height-mobile;
     z-index: 9999999;
 
-    @include media ($horizontal-bar-mode) {
-      min-height: $navigation-height;
+    @include media($horizontal-bar-mode) {
       float: right;
+      min-height: $navigation-height;
     }
   }
 
-  ul.navigation-menu {
+  .navigation-menu {
     clear: both;
     display: none;
     font-family: $base-font-family;
-    font-weight: 300;
     font-size: 0.9em;
+    font-weight: 300;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
     z-index: 9999;
 
-    &.show {
-      display: block;
-    }
-
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       display: inline;
       margin: 0;
       padding: 0;
+    }
+
+    &.show {
+      display: block;
     }
   }
 
   // The nav items
 
-  ul li.nav-link {
+  ul .nav-link {
     background: $navigation-background;
+    border-bottom: 1px solid transparentize($navigation-color, 0.8);
     display: block;
     line-height: $navigation-height-mobile;
     overflow: hidden;
     text-align: center;
     width: 100%;
     z-index: 9999;
-    border-bottom: 1px solid transparentize($navigation-color, 0.8);
 
-    @include media ($horizontal-bar-mode) {
+    @include media($horizontal-bar-mode) {
       background: transparent;
       border-bottom: 0;
       display: inline;
@@ -178,7 +180,7 @@ $horizontal-bar-mode: $medium-screen;
       line-height: 56px;
       text-decoration: none;
 
-      @include media ($horizontal-bar-mode) {
+      @include media($horizontal-bar-mode) {
         color: $navigation-color;
 
         &:focus,

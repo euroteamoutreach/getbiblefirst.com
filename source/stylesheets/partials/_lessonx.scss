@@ -13,7 +13,7 @@
   padding-bottom: 3em;
   width: 100%;
 
-  @include media ($phone-landscape) {
+  @include media($phone-landscape) {
     margin-bottom: 2em;
     padding-bottom: 1.7em;
   }
@@ -32,11 +32,11 @@
   .lessonx-image {
     padding-right: $lessonx-gutter;
 
-    @include media ($tablet-portrait) {
+    @include media($tablet-portrait) {
       padding-right: 2em;
     }
 
-    @include media ($phone-portrait) {
+    @include media($phone-portrait) {
       padding-right: 1em;
     }
 
@@ -48,12 +48,12 @@
       max-width: none;
       width: $lessonx-image-width;
 
-      @include media ($phone-landscape) {
+      @include media($phone-landscape) {
         border-radius: 3px;
         width: 5em;
       }
 
-      @include media ($phone-portrait) {
+      @include media($phone-portrait) {
         border-radius: 2px;
         width: 3em;
       }
@@ -72,11 +72,11 @@
       border-bottom: 1px solid $subtle-gray;
       padding-bottom: 0.1em;
 
-      @include media ($phone-landscape) {
+      @include media($phone-landscape) {
         font-size: 1.4em;
       }
 
-      @include media ($phone-portrait) {
+      @include media($phone-portrait) {
         font-size: 1em;
       }
     }
@@ -84,7 +84,7 @@
     h4 {
       margin-bottom: 0.3em;
 
-      @include media ($phone-landscape) {
+      @include media($phone-landscape) {
         font-size: 1em;
       }
     }

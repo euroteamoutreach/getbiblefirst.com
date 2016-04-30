@@ -1,7 +1,7 @@
 #content-wrapper {
   padding-top: 68px;
 
-  @include media ($phone-landscape) {
+  @include media($phone-landscape) {
     padding-top: 54px;
   }
 }
@@ -11,12 +11,12 @@
   padding: 3em 2em;
   width: em(700);
 
-  @include media ($tablet-portrait) {
+  @include media($tablet-portrait) {
     padding: 2em;
     width: 100%;
   }
 
-  @include media ($phone-landscape) {
+  @include media($phone-landscape) {
     padding: 1em;
 
     h1 {
@@ -29,7 +29,7 @@
     }
   }
 
-  @include media ($phone-portrait) {
+  @include media($phone-portrait) {
     font-size: 0.8em;
   }
 

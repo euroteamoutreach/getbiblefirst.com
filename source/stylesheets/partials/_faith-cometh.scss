@@ -23,12 +23,12 @@
 
   .faith-cometh-content {
     @include span-columns(8 of 12);
-    padding-top: 2em;
     padding-bottom: 4em;
+    padding-top: 2em;
 
     @include media($tablet-landscape) {
-      padding-top: 3em;
       padding-bottom: 2em;
+      padding-top: 3em;
     }
 
     @include media($tablet-mid) {
@@ -44,8 +44,8 @@
     }
 
     @include media($tablet-portrait) {
-      padding-top: 0;
       padding-bottom: 1em;
+      padding-top: 0;
     }
 
     @include media($tablet-small) {
@@ -112,19 +112,17 @@
   }
 
   .image-3d-full {
-    // border: 1px solid green;
     display: none;
 
     @include media($phone-landscape) {
       @include span-columns(2 of 8);
 
       img {
-        position: static;
-        float: right;
         display: block;
+        float: right;
+        position: static;
         width: 100%;
       }
     }
   }
-
 }
