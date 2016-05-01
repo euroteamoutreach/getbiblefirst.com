@@ -7,9 +7,9 @@
   @include media($tablet-portrait) {
     padding: 1em;
     width: 100%;
-
-    p { font-size: 0.9em; }
   }
+
+  p { font-size: 0.75em; }
 
   fieldset {
     margin-bottom: 2em;

@@ -46,6 +46,14 @@
         }
       }
 
+      .line-break {
+        display: none;
+
+        @include media($phone-portrait) {
+          display: block;
+        }
+      }
+
       p {
         color: $white;
         margin-bottom: 2.5em;
