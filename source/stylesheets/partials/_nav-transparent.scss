@@ -36,19 +36,19 @@ $horizontal-bar-mode: $medium-screen;
     @include media($horizontal-bar-mode) {
       margin-left: 0.7em;
       max-height: $navigation-height;
-      width: 52px;
+      width: 42px;
     }
 
     @include media($tablet-portrait) {
       margin-left: 0.7em;
       max-height: $navigation-height;
-      width: 52px;
+      width: 42px;
     }
 
     @include media($phone-landscape) {
-      margin-left: 7px;
+      margin-left: 10px;
       max-height: $navigation-height-mobile;
-      width: 40px;
+      width: 32px;
     }
 
     .svg-logo {
