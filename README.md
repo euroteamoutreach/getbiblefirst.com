@@ -6,7 +6,7 @@
 
 This site was built using [Middleman 4](https://middlemanapp.com/).
 
-![getbiblefirst.com screenshot](https://s3.amazonaws.com/images.getbiblefirst.com/getbiblefirst-screenshot.jpg)
+![getbiblefirst.com screenshot](http://d3lyzr3q25n7t0.cloudfront.net/getbiblefirst-com-screenshot.jpg)
 
 ### Setup
 
