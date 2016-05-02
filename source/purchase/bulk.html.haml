@@ -5,9 +5,13 @@ title: Bulk Orders
 .page-content
   %h1 Bulk Orders
   %p
-    Purchases of 50 copies or more are eligible for significant discounts.
-    To receive a quote, please complete the form below.
-    All fields are required.
+    Purchases of 50 copies or more are eligible for our special bulk pricing of
+    %strong $2.95 per book
+    plus shipping.
+  %p
+    To place an order, please complete the form below. Once we receive your
+    order, we will send you an electronic invoice which will include shipping
+    costs.
 
   .bulk-purchase-form
     %form{ action: "https://formspree.io/#{data.site.orders_email}",
@@ -46,16 +50,6 @@ title: Bulk Orders
           .zip
             %input{ name: "zip", type: "text", required: "",
                     placeholder: "Zip", maxlength: "5" }
-      %fieldset
-        %legend Payment
-        %p Indicate your payment preference.
-        %input#online{ name: "payment_type", type: "radio", value: "online",
-                       required: "" }
-        %label{ for: "online" } Online
-        %br
-        %input#check{ name: "payment_type", type: "radio", value: "check",
-                      required: "" }
-        %label{ for: "check" } Check
 
       %input{ name: "_subject", type: "hidden",
               value: "[getbiblefirst.com] Bulk Purchase Request" }
