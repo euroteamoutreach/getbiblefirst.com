@@ -70,6 +70,7 @@
     }
 
     .quote::before {
+      color: $light-gray;
       content: "\201C";
       display: block;
       font-size: 140px;
