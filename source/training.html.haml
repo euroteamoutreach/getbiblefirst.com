@@ -9,9 +9,6 @@ title: Training
 
 %section.training-intro-wrapper
   .training-intro
-    .training-title
-      %h2 You've read the lessons. Now share what you've learned!
-
     .training-copy
       %p
         Christ has commanded us to go into the world and teach all nations.
@@ -20,8 +17,69 @@ title: Training
         Scriptures with you, using Bible First as a guide. This approach to
         evangelism provides an excellent context in which to share the Gospel.
       %p
-        Before you start, we'd like to share some tips and tricks that will
-        help you be successful as you build your ministry.
+        %em Here's how to get started...
+
+    .training-title
+      %h2
+        Step 1: Read the lessons.
+    .training-copy
+      %p
+        Before you begin your journey as a Bible First coach, it's important
+        that you first read through all of the lessons yourself. We think you're
+        going to love them!
+      %ul.fa-ul
+        %li
+          %i.fa-li.fa.fa-arrow-right{ "aria-hidden" => "true" }
+          = link_to "/lessons" do
+            Browse an overview of the lessons
+        %li
+          %i.fa-li.fa.fa-arrow-right{ "aria-hidden" => "true" }
+          = link_to "/purchase" do
+            Order your own complete set
+
+    .training-title
+      %h2
+        Step 2: Watch the videos.
+
+    .training-copy
+      %p
+        We've created a collection of training videos that will help you get
+        started as a Bible First coach. If you're new to Bible First, this
+        series is a must-see!
+      %ul.fa-ul
+        %li
+          %i.fa-li.fa.fa-arrow-right{ "aria-hidden" => "true" }
+          = link_to "#video-start", class: "scroll scroll-on-page-link" do
+            Start watching now
+
+    .training-title
+      %h2
+        Step 3: Start your ministry!
+
+    .training-copy
+      %p
+        You've read the
+        = succeed "." do
+          = link_to "lessons", "/lessons"
+        You've completed the
+        = succeed "." do
+          = link_to "training videos", "#video-start",
+            class: "scroll scroll-on-page-link"
+        Now it's time to share what you've learned with others. Evangelism can
+        be intimidating at first, but don't forget: Christ is with you. He is
+        the One sending you out, and He will never leave your side.
+      %blockquote.quote
+        Go ye therefore, and teach all nations, baptizing them in the name
+        of the Father, and of the Son, and of the Holy Ghost: Teaching them
+        to observe all things whatsoever I have commanded you: and, lo, I am
+        with you alway, even unto the end of the world. Amen.
+        %br
+        %cite &mdash;Matthew 28:19-20
+      %p
+        We're praying for you as you embark on this mission, and we'd love to
+        hear how it's going. If you have questions or feedback, please
+        = succeed "!" do
+          = link_to "let us know", "/contact"
 
     .callout-box
       %h1 Downloads
@@ -31,11 +89,12 @@ title: Training
         = link_to "downloads", "/downloads"
         page.
 
-    .training-title
+    .training-title.bftv
+      %span.link-target#video-start
       %h2 Bible First Training Videos
 
     .video-sample
-      %a.scroll.scroll-on-page-link{ href: "#video-start" }
+      %a.scroll.scroll-on-page-link{ href: "#video-really-start" }
         = image_tag "nathan-video-screenshot.jpg"
     .video-intro
       %p
@@ -49,9 +108,8 @@ title: Training
         = succeed "." do
           = link_to "contact us", "/contact"
 
-
 %section.training-videos
-  %span.link-target#video-start
+  %span.link-target#video-really-start
   %h5 Bible First Training Videos
   %hr
   - data.part_titles.each do |part|
