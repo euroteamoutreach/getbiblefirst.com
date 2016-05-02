@@ -5,4 +5,10 @@ hide_from_sitemap: true
 
 .page-content
   %h1 Thank you!
-  %p Your request has been submitted successfully.
+  %p
+    Your information has been submitted. We'll process your order as soon as
+    possible and send you an invoice.
+  %p
+    In the meantime, if you have any questions, please feel free to
+    = succeed "." do
+      = link_to "contact us", "/contact"
