@@ -13,7 +13,8 @@ $horizontal-bar-mode: $medium-screen;
   @include transform(translateY(-110%));
 
   background-color: $navigation-background;
-  box-shadow: 0 2px 10px -5px darken($medium-gray, 10%);
+  border-bottom: 1px solid $shadow-border;
+  box-shadow: 0 1px 2px $shadow-fade;
   min-height: $navigation-height-mobile;
   width: 100%;
   z-index: 999;
