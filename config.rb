@@ -11,6 +11,7 @@ page "/*.xml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/404.html", directory_index: false
+page "/purchase/bulk-69c1d6a126.html", directory_index: false
 
 configure :build do
   activate :minify_html do |html|
