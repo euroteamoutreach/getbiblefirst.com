@@ -4,7 +4,7 @@ gem "middleman", "~> 4.0"
 gem "middleman-minify-html", "~> 3.4"
 
 # https://rubygems.org/gems/sassc
-gem "sassc", "~> 1.8"
+gem "sassc", "~> 1.9"
 
 # See http://bourbon.io/ for installation instructions
 gem "bourbon", "~> 4.2"
@@ -18,3 +18,4 @@ gem "middleman-search_engine_sitemap", "~> 1.4"
 
 # https://github.com/fredjean/middleman-s3_sync
 gem "middleman-s3_sync", "~> 4.0"
+gem "mime-types", "~> 3.0"
