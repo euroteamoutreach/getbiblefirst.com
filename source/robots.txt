@@ -1,4 +1,6 @@
 # www.robotstxt.org/
 
 User-agent: *
-Disallow:
+Disallow: /purchase/thanks/
+Disallow: /purchase/bulk-69c1d6a126.html
+Disallow: /contact/thanks/
