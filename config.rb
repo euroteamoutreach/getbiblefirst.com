@@ -31,12 +31,12 @@ configure :build do
   activate :asset_host,
     host: "//d1ie4g6xsu4sds.cloudfront.net"
 
+  # https://github.com/Aupajo/middleman-search_engine_sitemap
+  set :url_root, "http://getbiblefirst.com"
+  activate :search_engine_sitemap
+
   ignore "stylesheets/site"
 end
-
-# https://github.com/Aupajo/middleman-search_engine_sitemap
-set :url_root, "http://getbiblefirst.com"
-activate :search_engine_sitemap
 
 # https://github.com/fredjean/middleman-s3_sync
 activate :s3_sync do |s3|
