@@ -168,5 +168,9 @@ describe "The Lessons page", type: :feature do
     click_link "Next Lesson"
     expect(current_path).to eq("/lessons/lesson20")
     expect(page).to_not have_selector("nav.next-link>a", text: "Next Lesson")
+    within "nav.breadcrumbs" do
+      click_link "The Lessons"
+      expect(current_path).to eq("/lessons")
+    end
   end
 end
