@@ -90,13 +90,13 @@ accessory_docs:
     path: "/files/intro-letter.pdf"
     icon: "fa-file-pdf-o"
   - title: "Reminder Letter"
-    path: "/files/reminder-letter.doc"
+    path: "/files/reminder-letter.docx"
     icon: "fa-file-word-o"
   - title: "Reminder Letter Instructions"
     path: "/files/reminder-letter-instructions.pdf"
     icon: "fa-file-pdf-o"
-  - title: "Bible First! Letterhead"
-    path: "/files/letterhead.doc"
+  - title: "Bible First Letterhead"
+    path: "/files/letterhead.docx"
     icon: "fa-file-word-o"
 
 certificates:
