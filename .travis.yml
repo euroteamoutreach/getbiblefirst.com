@@ -1,25 +1,20 @@
 language: node_js
 node_js:
-- "5"
-
-env:
-  global:
-  - secure: XMXhNcoHxSxz6jMAGNUqTGx3s9VqmH+vG40J8AmdrgmZo5ebMY3JcfVL2MHrHzaK1Gp4wtzNJ89f3Ug3eSVnhMRHtGZd7lhOdg3TP1xbQCo0XsB7xEKwLHiIEPvObXj/PVTSM0uZhpgDSZbDl7ASo2HcRMKQh3cSdtfW9aA7EKTsWRMlOivsXUxOS3aZIpZL0Zz4X6R/NAloBDiDHPiTrzxIV7yRzbRejP5KAwdqFZcvdbEbgL3J7BlfZVvulgvC9KUrTR1KQX+145gM8kHBqI2kqCyfmBjA9aij1fBUsIO8fzksY07k/Mgs5n5dm19ZE2S2QNulEMUFrnHJiG+WoTOUkC5dFvedrjsgP0MWiT7tbFomaE63zNUjl7Jbm9Lb/zQE8MH6pIb8icB2/3evoPx2TmA39m6S3X5JCJXpwrbuGI0+NkvpkVyPdHJ2xuxQIyvzyFFphJ0kXzZrDzldqvvyLAq1ovI5Ef4lC5TbV8Rw0ME4A8oFK4DhH5XxRTNnv4G4ZSaRab4qzHn/7rJG7S+aM37YMXuI1tLSoK1vGT2xg/P9QWCbKJ6UJJS5FdXj4OamzmMIo1TyE2AaG/R/S/7l89ngoBlD+IJ87+Ycrodg6GIFu3aEuTI1g63+Jwq1HVVeMOYNTAJOOlpsDsEQWUoX6cIyHOp+DrBq4gjQ7KY=
-  - secure: ZPc9r+H1OR0WmFDTchyLblzTot56jKclQ23CfsdxXdfOCEQIH2G4q0piBODPc0gb6MepmAi//Pf2N+bOnvrAR+1Km3NvlKTLbDj4vPkdg6ouypUKkicKxCUC+iDNqmp0jejwxzeMr/F4l0qmw4vSlNeMcEmiNNCYaFboKhrbLqZRblU46lWLtn+ihOKy24golFpztkkC7FnRJALPA4YiVTSSXs2UPxh9Yg89kkUUIaZDGs3gppfVEo4TkyBKa2e1sWb4x+WJgO8YBTyHyADQehzp4WtCMucEBvv+ACEch3Q6z6zCyDMJWMu2ctu4RUZ9V237OXj4ic6a7UiQZVzn4zq4BWmwMP94R+MJXPDMg5X/SkEy8UUAlHNNBdZAI46aYuebjImJFgeEBMS+T+tcptdmLIzszQSJUwS68+RpWg1mzrL8AK8h5nHmIjU3fW8s8O+76pVXhHUX/ct6X8JtgcNbPV0CEgxoAoE6kkF6/+GsOo9AldI4E2havL62SgFm0YD/efBrP/3wfMk/CwTWAh5VE0B4E7pnjR8cMfym0esXMFgeo3DzwfiiOTeFpZk0Joj3YDWPbEUoOxBsE3kvgyJ9xeVQDG3rWIbfWunFGdGPyZRkf9XCFqojdXF1D6Hp+jaPycoAGmwpj+vR3/k1gcB17uDawJiWlTyCOHcaDnc=
+  - "5"
 
 before_install:
-- rvm install 2.3.1
+  - rvm install 2.3.1
 
 install:
-- bundle install
-- npm install -g lodash marked varstream svgicons2svgfont node-gyp ttf2woff2
-- npm install -g gulp
-- npm install
+  - bundle install
+  - npm install -g lodash marked varstream svgicons2svgfont node-gyp ttf2woff2
+  - npm install -g gulp
+  - npm install
 
 before_script: bin/rspec
 
-script: bin/deploy
+script: bundle exec middleman build --clean
 
 branches:
   only:
-  - master
+    - master
