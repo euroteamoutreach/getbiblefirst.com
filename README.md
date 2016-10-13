@@ -86,4 +86,4 @@ getbiblefirst.com is currently deployed on Amazon S3. [Detailed instructions](ht
 Legal
 -----
 
-Bible First is a trademark of [Euro Team Outreach, Inc.](http://www.euroteamoutreach.org/)
+Bible First is a trademark of [Euro Team Outreach, Inc.](http://www.euroteamoutreach.org/) Site content is copyrighted (c) 2016 by Euro Team Outreach, Inc. Software is under the [MIT license](https://github.com/joshukraine/getbiblefirst.com/blob/master/LICENSE).
