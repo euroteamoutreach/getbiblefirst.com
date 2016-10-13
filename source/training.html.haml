@@ -114,6 +114,6 @@ title: Training
   %hr
   - data.part_titles.each do |part|
     = partial "video-part", locals: { part: part }
-  %a.scroll.scroll-on-page-link{ href: "#video-start" }
+  = link_to("#", class: "back-to-top") do
     %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
     top
