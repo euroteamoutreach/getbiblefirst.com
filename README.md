@@ -1,7 +1,7 @@
 getbiblefirst.com
 =================
 
-[![Build Status](https://travis-ci.org/joshukraine/getbiblefirst.com.svg?branch=master)](https://travis-ci.org/joshukraine/getbiblefirst.com)
+[![Build Status](https://travis-ci.org/joshukraine/getbiblefirst.com.svg?branch=master)](https://travis-ci.org/joshukraine/getbiblefirst.com) [![Dependency Status](https://gemnasium.com/badges/github.com/joshukraine/getbiblefirst.com.svg)](https://gemnasium.com/github.com/joshukraine/getbiblefirst.com)
 
 [getbiblefirst.com](http://getbiblefirst.com/) is the official web site for Bible First, a distance-learning course based on the book of Genesis.
 
