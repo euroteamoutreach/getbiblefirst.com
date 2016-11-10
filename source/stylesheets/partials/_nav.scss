@@ -9,7 +9,7 @@ $navigation-active-link-color: $primary-blue;
 $horizontal-bar-mode: $medium-screen;
 
 .navigation {
-  @include position(fixed);
+  @include position(fixed, null null null null);
 
   background-color: $navigation-background;
   border-bottom: 1px solid $shadow-border;
