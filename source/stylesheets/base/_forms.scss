@@ -12,7 +12,7 @@ legend {
 }
 
 label {
-  display: block;
+  display: inline;
   font-weight: 600;
   margin-bottom: $small-spacing / 2;
 }
@@ -22,12 +22,12 @@ select,
 textarea {
   display: block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 1em;
 }
 
 #{$all-text-inputs} {
   appearance: none;
-  background-color: $base-background-color;
+  background-color: $white;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
@@ -69,6 +69,11 @@ textarea {
 [type="radio"] {
   display: inline;
   margin-right: $small-spacing / 2;
+}
+
+[type="submit"] {
+  font-family: $base-font-family;
+  font-size: 1em;
 }
 
 [type="file"] {
