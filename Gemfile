@@ -6,9 +6,13 @@ gem "middleman", "~> 4.1"
 # https://github.com/middleman/middleman-minify-html#middleman-minify-html
 gem "middleman-minify-html", "~> 3.4"
 
-# See http://bourbon.io/ for installation instructions
+# https://github.com/thoughtbot/bourbon/tree/v5.0.0.beta.7
 gem "bourbon", "~> 5.0.0.beta.7"
+
+# https://github.com/thoughtbot/neat/tree/v2.0.0.beta.1
 gem "neat", "~> 2.0.0.beta.1"
+
+# https://github.com/thoughtbot/bitters
 gem "bitters", "~> 1.5.0"
 
 # https://github.com/AndrewKvalheim/middleman-pry
