@@ -7,9 +7,9 @@ gem "middleman", "~> 4.1"
 gem "middleman-minify-html", "~> 3.4"
 
 # See http://bourbon.io/ for installation instructions
-gem "bourbon", "~> 4.2"
-gem "neat", "~> 1.8"
-gem "bitters", "~> 1.2.0"
+gem "bourbon", "~> 5.0.0.beta.7"
+gem "neat", "~> 2.0.0.beta.1"
+gem "bitters", "~> 1.5.0"
 
 # https://github.com/AndrewKvalheim/middleman-pry
 gem "middleman-pry", "~> 1.0"
