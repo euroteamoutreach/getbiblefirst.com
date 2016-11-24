@@ -77,8 +77,8 @@
   }
 
   ul {
-    @include flex-basis(11em);
-    @include flex-shrink(0);
+    flex-basis: 11em;
+    flex-shrink: 0;
     margin-bottom: $base-spacing;
     padding: 0;
   }

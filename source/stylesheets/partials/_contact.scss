@@ -2,7 +2,7 @@
   background-color: $white;
   border-radius: $base-border-radius;
   padding: 2em;
-  width: em(500);
+  width: 31.25em;
 
   @include media($tablet-portrait) {
     width: 100%;

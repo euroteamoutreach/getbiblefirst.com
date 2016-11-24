@@ -18,21 +18,20 @@ label {
 }
 
 input,
-select {
+select,
+textarea {
   display: block;
   font-family: $base-font-family;
   font-size: 1em;
 }
 
-#{$all-text-inputs},
-select[multiple] {
+#{$all-text-inputs} {
+  appearance: none;
   background-color: $white;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
-  font-size: 1em;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
   transition: border-color $base-duration $base-timing;
@@ -56,14 +55,14 @@ select[multiple] {
       border: $base-border;
     }
   }
+
+  &::placeholder {
+    color: tint($base-font-color, 40%);
+  }
 }
 
 textarea {
   resize: vertical;
-}
-
-[type="search"] {
-  appearance: none;
 }
 
 [type="checkbox"],
@@ -72,13 +71,17 @@ textarea {
   margin-right: $small-spacing / 2;
 }
 
+[type="submit"] {
+  font-family: $base-font-family;
+  font-size: 1em;
+}
+
 [type="file"] {
   margin-bottom: $small-spacing;
   width: 100%;
 }
 
 select {
-  margin-bottom: $base-spacing;
-  max-width: 100%;
-  width: auto;
+  margin-bottom: $small-spacing;
+  width: 100%;
 }

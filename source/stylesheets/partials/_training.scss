@@ -90,7 +90,7 @@
 .training-intro {
   @include outer-container;
   padding: 4em 2em;
-  width: em(600);
+  width: 37.5em;
 
   @include media($tablet-portrait) {
     padding: 2em 3em;
@@ -257,10 +257,10 @@
   background-color: $white;
   padding: 2em;
   position: relative;
-  width: em(400);
+  width: 25em;
 
   @include media($phone-landscape) {
-    width: em(320);
+    width: 20em;
 
     li {
       font-size: 0.95em;
