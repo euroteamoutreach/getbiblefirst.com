@@ -12,9 +12,6 @@ gem "bourbon", "~> 5.0.0.beta.7"
 # https://github.com/thoughtbot/neat
 gem "neat", "~> 1.8"
 
-# https://github.com/thoughtbot/bitters
-gem "bitters", "~> 1.5.0"
-
 # https://github.com/AndrewKvalheim/middleman-pry
 gem "middleman-pry", "~> 1.0"
 
