@@ -9,8 +9,8 @@ gem "middleman-minify-html", "~> 3.4"
 # https://github.com/thoughtbot/bourbon/tree/v5.0.0.beta.7
 gem "bourbon", "~> 5.0.0.beta.7"
 
-# https://github.com/thoughtbot/neat/tree/v2.0.0.beta.1
-gem "neat", "~> 2.0.0.beta.1"
+# https://github.com/thoughtbot/neat
+gem "neat", "~> 1.8"
 
 # https://github.com/thoughtbot/bitters
 gem "bitters", "~> 1.5.0"
