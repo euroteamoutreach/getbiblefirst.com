@@ -1,6 +1,7 @@
 require('./_animate');
 require('./_copyright');
 require('./_faq');
+require('./_font-loader');
 require('./_nav-scroll');
 require('./_nav-transparent');
 require('./_nav');
