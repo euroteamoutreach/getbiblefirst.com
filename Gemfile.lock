@@ -25,7 +25,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.10.0)
+    coffee-script-source (1.11.1)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.2)
@@ -63,7 +63,7 @@ GEM
     htmlcompressor (0.2.0)
     i18n (0.7.0)
     ipaddress (0.8.3)
-    kramdown (1.13.0)
+    kramdown (1.13.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     listen (3.0.8)

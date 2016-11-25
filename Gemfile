@@ -7,9 +7,9 @@ gem "neat", "~> 1.8"
 gem "middleman-search_engine_sitemap", "~> 1.4"
 gem "middleman-s3_sync", "~> 4.0"
 gem "mime-types", "~> 3.0"
+gem "middleman-pry", "~> 1.0"
 
 group :development do
-  gem "middleman-pry", "~> 1.0"
   gem "rspec", "~> 3.5"
   gem "capybara", "~> 2.9"
   gem "launchy", "~> 2.4"
