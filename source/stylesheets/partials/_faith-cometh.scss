@@ -100,17 +100,17 @@
   }
 
   img {
+    @include size(300px, auto);
     bottom: 0;
     position: absolute;
     right: 3em;
-    width: 300px;
 
     @include media($tablet-landscape) {
-      width: 275px;
+      @include size(275px, auto);
     }
 
     @include media($tablet-portrait) {
-      width: 250px;
+      @include size(250px, auto);
     }
 
     @include media($phone-landscape) {
@@ -125,10 +125,10 @@
       @include span-columns(2 of 8);
 
       img {
+        @include size(100%, auto);
         display: block;
         float: right;
         position: static;
-        width: 100%;
       }
     }
   }

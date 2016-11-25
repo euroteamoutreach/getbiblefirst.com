@@ -233,6 +233,7 @@
     }
 
     img {
+      @include size(100%, auto);
       border-radius: $base-border-radius;
       box-shadow: 0 2px 4px darken($light-gray, 10%);
     }
