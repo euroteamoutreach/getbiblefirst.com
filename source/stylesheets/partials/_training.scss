@@ -3,7 +3,7 @@
   $hero-background-bottom: #1c2520;
   $hero-color: $white;
   $gradient-angle: 10deg;
-  $hero-image: "#{$assets-images-path}coach-desk.png";
+  $hero-image: "#{$assets-images-path}coach-desk.jpg";
 
   background: url($hero-image),
   linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top),
