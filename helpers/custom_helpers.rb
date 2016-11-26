@@ -11,9 +11,9 @@ module CustomHelpers
 
   def overview_smart_path(path)
     if !!(path =~ /index/)
-      "#earthscape-link"
+      "#overview"
     else
-      "/#earthscape-link"
+      "/#overview"
     end
   end
 
@@ -25,8 +25,8 @@ module CustomHelpers
     end
   end
 
-  def smart_robots(path)
-    if !!(path =~ /thanks|69c1d6a126/)
+  def smart_robots(path, env)
+    if !!(path =~ /thanks|69c1d6a126/) || env != "production"
       "noindex, nofollow"
     else
       "index, follow"
@@ -70,10 +70,10 @@ module CustomHelpers
       return
     elsif more_videos_in_part?(video)
       next_number = video[:number].split("-")[1].to_i + 1
-      "/training/videos/#{video[:part]}/video-#{next_number}"
+      "/training/videos/#{video[:part]}/video-#{next_number}/"
     else
       next_part = video[:part].split("-")[1].to_i + 1
-      "/training/videos/part-#{next_part}/video-1"
+      "/training/videos/part-#{next_part}/video-1/"
     end
   end
 end

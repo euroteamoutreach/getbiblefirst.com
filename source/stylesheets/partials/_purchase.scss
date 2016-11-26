@@ -33,10 +33,10 @@
     }
 
     img {
+      @include size(90px, auto);
       border-radius: 2px;
       box-shadow: 0 2px 4px darken($light-gray, 10%);
       margin-bottom: 0.5em;
-      width: 90px;
     }
 
     h5 {
@@ -67,10 +67,10 @@
     @include span-columns(2);
 
     img {
+      @include size(90px, auto);
       border-radius: 2px;
       box-shadow: 0 2px 4px darken($light-gray, 10%);
       margin-bottom: 0.5em;
-      width: 90px;
     }
   }
 

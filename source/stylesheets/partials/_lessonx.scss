@@ -41,21 +41,20 @@
     }
 
     > img {
+      @include size($lessonx-image-width, auto);
       border-radius: $base-border-radius;
       box-shadow: 0 2px 4px darken($light-gray, 10%);
       display: block;
-      height: auto;
       max-width: none;
-      width: $lessonx-image-width;
 
       @include media($phone-landscape) {
+        @include size(5em, auto);
         border-radius: 3px;
-        width: 5em;
       }
 
       @include media($phone-portrait) {
+        @include size(3em, auto);
         border-radius: 2px;
-        width: 3em;
       }
     }
 

@@ -52,10 +52,10 @@
     }
 
     img {
+      @include size(200px);
       border: 1px solid $base-border-color;
       border-radius: 50%;
       margin-bottom: 1em;
-      width: 200px;
     }
   }
 }

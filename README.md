@@ -12,6 +12,7 @@ This site was built using [Middleman 4](https://middlemanapp.com/).
 Requirements
 ------------
 
+* [Middleman 4.x](https://middlemanapp.com/basics/install/)
 * [Ruby 2.x](https://github.com/rbenv/rbenv#readme)
 * [Node 5.x](https://github.com/creationix/nvm#readme)
 * [Gulp CLI](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)
@@ -49,13 +50,14 @@ Custom environments can be invoked on the command line with `-e` flag like so:
 
 Code for custom environments is stored in `environments/<your-custom-env>.rb`. Note that custom environments can be invoked without the existence of a corresponding file in the `environments/` directory. If, for example, you merely wanted to start a server without the default `development` configs, you could run `middleman server -e <anything-here>`.
 
-For completeness, all four environments used in this app have corresponding files:
+For completeness, all five environments used in this app have corresponding files:
 
 ```sh
 environments/
 ├── console.rb
 ├── development.rb
 ├── production.rb
+├── staging.rb
 └── test.rb
 ```
 

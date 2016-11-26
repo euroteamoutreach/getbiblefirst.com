@@ -16,11 +16,11 @@ layout: home
   .logo-wrapper
     = inline_svg "logo-full.svg", class: "svg-logo"
 
-  %a.scroll.scroll-on-page-link{ href: "#earthscape-link" }
+  %a.scroll.scroll-on-page-link{ href: "#overview" }
     %i.fa.fa-chevron-down.fa-2x.animated
 
 %section.earthscape-hero
-  %span.link-target#earthscape-link
+  %span.link-target#overview
   .hero-inner
     .hero-copy
       %h1 God's Word is the most powerful witness of Christ on Earth.
@@ -107,8 +107,8 @@ layout: home
         &ldquo;Go ye therefore,
         %br.line-break and teach all nations...&rdquo;
       %p Matthew 28:19
-      = link_to("/training", class: "button") do
+      = link_to("/training/", class: "button") do
         = content_tag :button, "Learn More"
-      = link_to("/purchase", class: "button") do
+      = link_to("/purchase/", class: "button") do
         = content_tag :button, "Buy Now"
 

@@ -4,7 +4,7 @@
       %li= link_to "Home", "/"
       %li= link_to "Training Videos", "/training#video-start"
       %li= link_to video[:part].titleize.to_s,
-        "/training/videos/#{video[:part]}"
+        "/training/videos/#{video[:part]}/"
       %li= video[:number].titleize.to_s
 
   %nav.next-link

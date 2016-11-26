@@ -1,9 +1,9 @@
 %section.volume
   %aside.volume-image
-    = image_tag "volume#{volume.number}-500w.jpg"
+    = image_tag "volume#{volume.number}-300w.jpg"
   %article.volume-content
     %h4= data.volume_titles["volume#{volume.number}"]
     %p= volume.content
     %ul
       - volume.lessons.each do |_key, lesson|
-        %li= link_to data.lessons[lesson].title.to_s, "/lessons/#{lesson}"
+        %li= link_to data.lessons[lesson].title.to_s, "/lessons/#{lesson}/"

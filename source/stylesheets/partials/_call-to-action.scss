@@ -3,7 +3,7 @@
   $hero-background-bottom: $dark-gray;
   $hero-color: $white;
   $gradient-angle: 10deg;
-  $hero-image: "#{$assets-images-path}stylised-bible-color.png";
+  $hero-image: "#{$assets-images-path}stylised-bible-color.jpg";
 
   background: url($hero-image),
               linear-gradient($gradient-angle,

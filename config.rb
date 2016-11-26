@@ -16,31 +16,14 @@ configure :build do
     source: ".tmp",
     latency: 1
 
-  activate :gzip
-
-  activate :asset_hash, ignore: [/^files\/.*ttf$/]
-  activate :asset_host,
-    host: "//d1ie4g6xsu4sds.cloudfront.net"
-
-  # https://github.com/Aupajo/middleman-search_engine_sitemap
-  set :url_root, "http://getbiblefirst.com"
-  activate :search_engine_sitemap
-
   ignore "javascripts/all.js"
   ignore "stylesheets/site"
+  ignore "stylesheets/vendor/**.*"
+
+  activate :gzip
 
   activate :minify_html do |html|
     html.remove_quotes = false
     html.remove_intertag_spaces = true
   end
-end
-
-# https://github.com/fredjean/middleman-s3_sync
-activate :s3_sync do |s3|
-  s3.bucket = "getbiblefirst.com"
-  s3.aws_access_key_id = ENV["AWS_ACCESS_KEY_ID"]
-  s3.aws_secret_access_key = ENV["AWS_SECRET_ACCESS_KEY"]
-  s3.prefer_gzip = true
-  s3.index_document = "index.html"
-  s3.error_document = "404.html"
 end
