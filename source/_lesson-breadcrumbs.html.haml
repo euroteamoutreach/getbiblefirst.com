@@ -1,8 +1,8 @@
 %nav.next-link
   - unless lesson.number == 20
-    = link_to "Next Lesson", "/lessons/lesson#{lesson.number + 1}"
+    = link_to "Next Lesson", "/lessons/lesson#{lesson.number + 1}/"
 %nav.breadcrumbs
   %ul
     %li= link_to "Home", "/"
-    %li= link_to "The Lessons", "/lessons"
+    %li= link_to "The Lessons", "/lessons/"
     %li= "Lesson " + lesson.number.to_s

@@ -6,4 +6,4 @@
     %p= volume.content
     %ul
       - volume.lessons.each do |_key, lesson|
-        %li= link_to data.lessons[lesson].title.to_s, "/lessons/#{lesson}"
+        %li= link_to data.lessons[lesson].title.to_s, "/lessons/#{lesson}/"

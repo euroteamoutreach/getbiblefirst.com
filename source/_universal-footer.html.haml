@@ -4,14 +4,14 @@
       %ul
         %li= link_to "Overview", overview_smart_path(current_page.path),
           class: "scroll scroll-on-page-link"
-        %li= link_to "The Lessons", "/lessons"
-        %li= link_to "Training", "/training"
+        %li= link_to "The Lessons", "/lessons/"
+        %li= link_to "Training", "/training/"
         %li= link_to "Videos", "/training#video-start"
     .footer-links-right
       %ul
-        %li= link_to "Purchase", "/purchase"
-        %li= link_to "Downloads", "/downloads"
-        %li= link_to "Contact", "/contact"
+        %li= link_to "Purchase", "/purchase/"
+        %li= link_to "Downloads", "/downloads/"
+        %li= link_to "Contact", "/contact/"
     .footer-logo
       = link_to home_smart_path(current_page.path), class: "home-back-to-top" do
         = inline_svg "logo-full-white.svg", class: "logo"
@@ -19,4 +19,4 @@
   %p
     Bible First is a ministry of
     %br.link-break
-      = link_to "Euro Team Outreach, Inc.", "http://www.euroteamoutreach.org"
+      = link_to "Euro Team Outreach, Inc.", "http://www.euroteamoutreach.org/"
