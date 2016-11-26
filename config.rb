@@ -18,6 +18,7 @@ configure :build do
 
   ignore "javascripts/all.js"
   ignore "stylesheets/site"
+  ignore "stylesheets/vendor/**.*"
 
   activate :gzip
 
