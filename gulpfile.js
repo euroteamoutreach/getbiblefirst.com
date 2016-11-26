@@ -131,7 +131,7 @@ gulp.task('development', function(done) {
 
 // Production Task
 gulp.task('production', function(done) {
-  p.runSequence('clean', 'css', 'js', 'images', 'sizereport', done);
+  p.runSequence('clean', 'css', 'fonts', 'js', 'images', 'sizereport', done);
 });
 
 // Default Task
