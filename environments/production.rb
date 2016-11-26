@@ -1,5 +1,13 @@
 # https://middlemanapp.com/basics/upgrade-v4/#environments-and-changes-to-configure-blocks
 
+activate :asset_hash, ignore: [/^files\/.*ttf$/]
+activate :asset_host,
+  host: "//d1ie4g6xsu4sds.cloudfront.net"
+
+# https://github.com/Aupajo/middleman-search_engine_sitemap
+set :url_root, "http://getbiblefirst.com"
+activate :search_engine_sitemap
+
 # https://github.com/fredjean/middleman-s3_sync
 activate :s3_sync do |s3|
   s3.bucket = "getbiblefirst.com"

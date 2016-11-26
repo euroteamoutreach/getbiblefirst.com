@@ -16,18 +16,10 @@ configure :build do
     source: ".tmp",
     latency: 1
 
-  activate :gzip
-
-  activate :asset_hash, ignore: [/^files\/.*ttf$/]
-  activate :asset_host,
-    host: "//d1ie4g6xsu4sds.cloudfront.net"
-
-  # https://github.com/Aupajo/middleman-search_engine_sitemap
-  set :url_root, "http://getbiblefirst.com"
-  activate :search_engine_sitemap
-
   ignore "javascripts/all.js"
   ignore "stylesheets/site"
+
+  activate :gzip
 
   activate :minify_html do |html|
     html.remove_quotes = false
