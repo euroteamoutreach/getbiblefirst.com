@@ -7,6 +7,6 @@ if [[ $# -ne 1 ]]; then
   echo "Please specify an environment."
   exit 1
 else
-  bundle exec middleman build --clean
+  bundle exec middleman build --clean --environment=$ENV
   bundle exec middleman s3_sync --environment=$ENV
 fi
