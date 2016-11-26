@@ -40,7 +40,7 @@ describe CustomHelpers do
       it "returns the Overview path without a leading slash" do
         current_page = double("Sitemap")
         allow(current_page).to receive(:path).and_return("index")
-        expect(overview_smart_path(current_page.path)).to eq("#earthscape-link")
+        expect(overview_smart_path(current_page.path)).to eq("#overview")
       end
     end
 
@@ -48,7 +48,7 @@ describe CustomHelpers do
       it "returns the Overview path *with* a leading slash" do
         current_page = double("Sitemap")
         allow(current_page).to receive(:path).and_return("other-page")
-        expect(overview_smart_path(current_page.path)).to eq("/#earthscape-link")
+        expect(overview_smart_path(current_page.path)).to eq("/#overview")
       end
     end
   end
