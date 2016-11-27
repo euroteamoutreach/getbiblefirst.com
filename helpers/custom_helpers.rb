@@ -1,7 +1,7 @@
 module CustomHelpers
   def full_title(page_title=nil)
     page_title ||= ""
-    base_title = "Bible First"
+    base_title = "Bible First - Introducing Christ through the book of Genesis."
     if page_title.empty?
       base_title
     else
