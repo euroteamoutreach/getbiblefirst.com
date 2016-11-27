@@ -8,6 +8,8 @@ gem "middleman-search_engine_sitemap", "~> 1.4"
 gem "middleman-s3_sync", "~> 4.0"
 gem "mime-types", "~> 3.0"
 gem "middleman-pry", "~> 1.0"
+gem "haml_lint"
+gem "scss_lint"
 
 group :development do
   gem "rspec", "~> 3.5"
