@@ -5,14 +5,14 @@ describe CustomHelpers do
     context "when no custom page title is provided" do
       it "provides only the base title" do
         title = nil
-        expect(full_title(title)).to eq("Bible First")
+        expect(full_title(title)).to eq("Bible First - Introducing Christ through the book of Genesis.")
       end
     end
 
     context "when a custom title is provided" do
       it "displays the custom title and the base title separated by a pipe" do
         title = "Custom"
-        expect(full_title(title)).to eq("Custom | Bible First")
+        expect(full_title(title)).to eq("Custom | Bible First - Introducing Christ through the book of Genesis.")
       end
     end
   end
