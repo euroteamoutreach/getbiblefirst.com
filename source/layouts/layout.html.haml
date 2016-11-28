@@ -2,6 +2,7 @@
 %html
   %head
     = partial "head-contents"
+    = javascript_include_tag :bundle, async: !development?
   %body{ class: page_classes }
     = partial "header"
     #content-wrapper

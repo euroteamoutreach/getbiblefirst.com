@@ -12,11 +12,7 @@
   content: "http://d3lyzr3q25n7t0.cloudfront.net/biblefirst-fb.png"
   = tag "meta", name: "google-site-verification",
     content: "X_IwE2aubtyfqpk9MSnDlWIWl8_Bjfhc1w8N9jNjCXE"
-
-%title= full_title(current_page.data.title)
 = favicon_tag "images/favicon.png"
-
 = tag "link", href: "images/apple-touch-icon.png", rel: "apple-touch-icon"
-
 = stylesheet_link_tag :site
-= javascript_include_tag :bundle, async: !development?
+%title= full_title(current_page.data.title)
