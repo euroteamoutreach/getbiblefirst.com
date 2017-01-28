@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "middleman", "~> 4.1"
+gem "middleman", "~> 4.2"
 gem "middleman-minify-html", "~> 3.4"
 gem "bourbon", "~> 5.0.0.beta.7"
 gem "neat", "~> 1.8"
@@ -13,7 +13,7 @@ gem "scss_lint"
 
 group :development do
   gem "rspec", "~> 3.5"
-  gem "capybara", "~> 2.9"
+  gem "capybara", "~> 2.11"
   gem "launchy", "~> 2.4"
 end
 
