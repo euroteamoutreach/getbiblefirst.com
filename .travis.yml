@@ -6,6 +6,7 @@ before_install:
   - rvm install 2.3.3
 
 install:
+  - gem install rainbow -v '2.2.1'
   - bundle install
   - npm install -g lodash marked varstream svgicons2svgfont node-gyp ttf2woff2
   - npm install -g gulp-cli
