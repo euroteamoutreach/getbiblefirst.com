@@ -13,7 +13,7 @@ gem "scss_lint"
 
 group :development do
   gem "rspec", "~> 3.5"
-  gem "capybara", "~> 2.11"
+  gem 'capybara', '~> 2.13'
   gem "launchy", "~> 2.4"
 end
 
