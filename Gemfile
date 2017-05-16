@@ -12,8 +12,8 @@ gem "haml_lint"
 gem "scss_lint"
 
 group :development do
-  gem "rspec", "~> 3.5"
-  gem "capybara", "~> 2.13"
+  gem "rspec", "~> 3.6"
+  gem "capybara", "~> 2.14"
   gem "launchy", "~> 2.4"
 end
 
