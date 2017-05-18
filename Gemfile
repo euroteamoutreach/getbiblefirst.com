@@ -14,6 +14,7 @@ gem "scss_lint"
 group :development do
   gem "rspec", "~> 3.6"
   gem "capybara", "~> 2.14"
+  gem "nokogiri", "~> 1.6"
   gem "launchy", "~> 2.4"
 end
 

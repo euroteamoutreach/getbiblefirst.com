@@ -219,6 +219,7 @@ DEPENDENCIES
   middleman-search_engine_sitemap (~> 1.4)
   mime-types (~> 3.0)
   neat (~> 1.8)
+  nokogiri (~> 1.6)
   rspec (~> 3.6)
   scss_lint
 
