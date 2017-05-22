@@ -1,11 +1,12 @@
 !!!
 %html
   %head
-    = partial "head-contents"
+    = partial "head_contents"
     = javascript_include_tag :bundle
+    = partial "analytics" if production?
+
   %body{ class: page_classes }
     = partial "header"
     = yield
     = partial "universal-footer"
     = partial "copyright-footer"
-    = partial "analytics" if production?
