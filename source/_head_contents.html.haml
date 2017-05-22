@@ -4,17 +4,17 @@
 = tag "meta", name: "author", content: "Euro Team Outreach, Inc."
 = tag "meta", name: "robots", content: smart_robots(current_page.path, config[:environment].to_s)
 = tag "meta", name: "description", content: data.site.description
-- if production?
-  = tag "meta", property: "og:url", content: data.site.url
-  = tag "meta", property: "og:title", content: data.site.title
-  = tag "meta", property: "og:description", content: data.site.description
-  = tag "meta", property: "og:image",
-  content: "http://d3lyzr3q25n7t0.cloudfront.net/biblefirst-fb.png"
-  = tag "meta", name: "google-site-verification",
-    content: "X_IwE2aubtyfqpk9MSnDlWIWl8_Bjfhc1w8N9jNjCXE"
+
+= tag "meta", property: "og:url", content: data.site.url
+= tag "meta", property: "og:title", content: data.site.title
+= tag "meta", property: "og:description", content: data.site.description
+= tag "meta", property: "og:image",
+content: "http://d3lyzr3q25n7t0.cloudfront.net/biblefirst-fb.png"
+
+%title= full_title(current_page.data.title)
+
+= partial "analytics" if production?
 = favicon_tag "images/favicon.png"
 = tag "link", href: "images/apple-touch-icon.png", rel: "apple-touch-icon"
 = stylesheet_link_tag :site
-= javascript_include_tag "https://use.fontawesome.com/97bd42fe73.js"
-%title= full_title(current_page.data.title)
-
+= javascript_include_tag "https://use.fontawesome.com/6f6b41ef5e.js"

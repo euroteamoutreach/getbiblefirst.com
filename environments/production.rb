@@ -2,10 +2,10 @@
 
 activate :asset_hash, ignore: [/^files\/.*ttf$/]
 activate :asset_host,
-  host: "//d1ie4g6xsu4sds.cloudfront.net"
+  host: "https://d1ie4g6xsu4sds.cloudfront.net"
 
 # https://github.com/Aupajo/middleman-search_engine_sitemap
-set :url_root, "http://getbiblefirst.com"
+set :url_root, "https://getbiblefirst.com"
 activate :search_engine_sitemap
 
 # https://github.com/fredjean/middleman-s3_sync
@@ -18,5 +18,6 @@ activate :s3_sync do |s3|
   s3.error_document = "404.html"
 end
 
+# https://github.com/fredjean/middleman-s3_sync#http-caching
 default_caching_policy max_age: (60 * 60 * 24 * 365)
 caching_policy 'text/html', public: true, max_age: 0, must_revalidate: true
