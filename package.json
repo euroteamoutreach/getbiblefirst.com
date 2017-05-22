@@ -35,7 +35,7 @@
     "gulp-sizereport": "^1.2.0",
     "gulp-sourcemaps": "^2.4.0",
     "gulp-strip-debug": "^1.1.0",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.7",
     "run-sequence": "^1.2.2",
     "vinyl-buffer": "^1.0.0",
