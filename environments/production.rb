@@ -1,8 +1,7 @@
 # https://middlemanapp.com/basics/upgrade-v4/#environments-and-changes-to-configure-blocks
 
 activate :asset_hash, ignore: [/^files\/.*ttf$/]
-activate :asset_host,
-  host: "https://d1ie4g6xsu4sds.cloudfront.net"
+activate :asset_host, host: "https://d1ie4g6xsu4sds.cloudfront.net"
 
 # https://github.com/Aupajo/middleman-search_engine_sitemap
 set :url_root, "https://getbiblefirst.com"

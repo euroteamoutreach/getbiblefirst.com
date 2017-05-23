@@ -84,7 +84,7 @@ Deployment
 
 getbiblefirst.com is currently deployed on Amazon S3. [Detailed instructions][aws-s3-deployment] are available from Amazon.
 
-**BONUS: If you deploy with Amazon, you can a [free ssl certificate][aws-cert-manager] for your site!**
+**BONUS: If you deploy with Amazon, you can get a [free ssl certificate][aws-cert-manager] for your site!**
 
 Legal
 -----
