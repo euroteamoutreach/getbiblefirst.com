@@ -1,21 +1,21 @@
 getbiblefirst.com
 =================
 
-[![Build Status](https://travis-ci.org/joshukraine/getbiblefirst.com.svg?branch=master)](https://travis-ci.org/joshukraine/getbiblefirst.com) [![Dependency Status](https://gemnasium.com/badges/github.com/joshukraine/getbiblefirst.com.svg)](https://gemnasium.com/github.com/joshukraine/getbiblefirst.com)
+[![Build Status][travis-svg]][travis] [![Dependency Status][gemnasium-svg]][gemnasium]
 
-[getbiblefirst.com](http://getbiblefirst.com/) is the official web site for Bible First, a distance-learning course based on the book of Genesis.
+[getbiblefirst.com][biblefirst] is the official web site for Bible First, a distance-learning course based on the book of Genesis.
 
-This site was built using [Middleman 4](https://middlemanapp.com/).
+This site was built using [Middleman][middleman].
 
-![getbiblefirst.com screenshot](http://d3lyzr3q25n7t0.cloudfront.net/getbiblefirst-com-screenshot-2016.jpg)
+![getbiblefirst.com screenshot][screenshot]
 
 Requirements
 ------------
 
-* [Middleman 4.x](https://middlemanapp.com/basics/install/)
-* [Ruby 2.x](https://github.com/rbenv/rbenv#readme)
-* [Node 6.x](https://github.com/creationix/nvm#readme)
-* [Gulp CLI](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)
+* [Middleman 4.x][middleman-docs]
+* [Ruby 2.x][rbenv]
+* [Node 6.x][nvm]
+* [Gulp CLI][gulp-cli]
 
 Setup
 -----
@@ -29,7 +29,7 @@ $ bin/setup
 Development
 -----------
 
-This project uses [Gulp](http://gulpjs.com/) with Middleman's new [`external_pipeline`](https://middlemanapp.com/advanced/external-pipeline/) feature introduced in v4.
+This project uses [Gulp][gulp] with Middleman's new [`external_pipeline`][external-pipeline] feature introduced in v4.
 
     # Run the development server with Gulp
     $ bundle exec middleman server
@@ -82,9 +82,31 @@ mms='bundle exec middleman server'
 Deployment
 ----------
 
-getbiblefirst.com is currently deployed on Amazon S3. [Detailed instructions](http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html) are available from Amazon.
+getbiblefirst.com is currently deployed on Amazon S3. [Detailed instructions][aws-s3-deployment] are available from Amazon.
+
+**BONUS: If you deploy with Amazon, you can a [free ssl certificate][aws-cert-manager] for your site!**
 
 Legal
 -----
 
-Bible First is a trademark of [Euro Team Outreach, Inc.](http://www.euroteamoutreach.org/) Site content is copyrighted (c) 2016 by Euro Team Outreach, Inc. Software is under the [MIT license](https://github.com/joshukraine/getbiblefirst.com/blob/master/LICENSE).
+Bible First is a registered trademark of [Euro Team Outreach, Inc.][eto]
+
+Copyright &copy; 2017 by Euro Team Outreach, Inc. Software is licensed under [MIT][license].
+
+[travis-svg]: https://travis-ci.org/joshukraine/getbiblefirst.com.svg?branch=master
+[travis]: https://travis-ci.org/joshukraine/getbiblefirst.com
+[gemnasium-svg]: https://gemnasium.com/badges/github.com/joshukraine/getbiblefirst.com.svg
+[gemnasium]: https://gemnasium.com/github.com/joshukraine/getbiblefirst.com
+[biblefirst]: https://getbiblefirst.com/
+[eto]: https://euroteamoutreach.org/
+[screenshot]: http://d3lyzr3q25n7t0.cloudfront.net/getbiblefirst-com-screenshot-2016.jpg
+[middleman]: https://middlemanapp.com/
+[middleman-docs]: https://middlemanapp.com/basics/install/
+[rbenv]: https://github.com/rbenv/rbenv#readme
+[nvm]: https://github.com/creationix/nvm#readme
+[gulp-cli]: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started
+[gulp]: http://gulpjs.com/
+[external-pipeline]: https://middlemanapp.com/advanced/external-pipeline/
+[aws-s3-deployment]: http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html
+[aws-cert-manager]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
+[license]: https://github.com/joshukraine/getbiblefirst.com/blob/master/LICENSE
