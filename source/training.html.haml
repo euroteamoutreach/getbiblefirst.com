@@ -113,7 +113,7 @@ title: Training
   %h5 Bible First Training Videos
   %hr
   - data.part_titles.each do |part|
-    = partial "video-part", locals: { part: part }
+    = partial "partials/video-part", locals: { part: part }
   = link_to("#", class: "back-to-top") do
     %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
     top

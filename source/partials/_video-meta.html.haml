@@ -1,4 +1,4 @@
 %section.page-content
   %h3= data.training_videos[video[:part]][video[:number]].title
-  = partial "video-breadcrumbs", locals: { video: video }
+  = partial "partials/video-breadcrumbs", locals: { video: video }
   %p= data.training_videos[video[:part]][video[:number]].summary

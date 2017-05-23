@@ -25,7 +25,7 @@ title: Downloads
     %h4 Q&amp;A Booklets
     %ul.fa-ul
       - data.files.qa_booklets.each do |booklet|
-        = partial "qa-booklet", locals: { booklet: booklet }
+        = partial "partials/qa-booklet", locals: { booklet: booklet }
     = link_to("#", class: "back-to-top") do
       %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
@@ -34,7 +34,7 @@ title: Downloads
     %h4 Answer Keys
     %ul.fa-ul
       - data.files.answer_keys.each do |booklet|
-        = partial "answer-key", locals: { booklet: booklet }
+        = partial "partials/answer-key", locals: { booklet: booklet }
     = link_to("#", class: "back-to-top") do
       %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
@@ -43,7 +43,7 @@ title: Downloads
     %h4 Accessory Documents
     %ul.fa-ul
       - data.files.accessory_docs.each do |doc|
-        = partial "accessory-doc", locals: { doc: doc }
+        = partial "partials/accessory-doc", locals: { doc: doc }
     = link_to("#", class: "back-to-top") do
       %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top
@@ -57,7 +57,7 @@ title: Downloads
       font.
     %ul.fa-ul
       - data.files.certificates.each do |cert|
-        = partial "certificate", locals: { cert: cert }
+        = partial "partials/certificate", locals: { cert: cert }
     = link_to("#", class: "back-to-top") do
       %i.fa.fa-sort-asc{ "aria-hidden" => "true" }
       top

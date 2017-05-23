@@ -20,7 +20,7 @@ title: Purchase Bible First
 
   %ul.product-blocks
     - data.volumes.each do |volume|
-      = partial "product", locals: { volume: volume }
+      = partial "partials/product", locals: { volume: volume }
 
   .complete-set
     %ul.complete-set-inner
