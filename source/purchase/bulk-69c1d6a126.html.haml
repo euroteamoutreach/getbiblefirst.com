@@ -33,7 +33,7 @@ title: Bulk Orders
           You must purchase at least 50 total copies in order to qualify for the
           bulk discount.
         - data["volumes"].each do |volume|
-          = partial "book-row", locals: { volume: volume }
+          = partial "partials/book-row", locals: { volume: volume }
 
       %fieldset
         %legend Shipping
@@ -54,7 +54,7 @@ title: Bulk Orders
       %input{ name: "_subject", type: "hidden",
               value: "[getbiblefirst.com] Bulk Purchase Request" }
       %input{ name: "_next", type: "hidden",
-              value: "http://#{data.site.human_url}/purchase/thanks/" }
+              value: "#{data.site.url}/purchase/thanks/" }
       %input{ name: "_gotcha", style: "display:none", type: "text" }
       %input{ name: "_format", style: "display:none", type: "text",
               value: "plain" }

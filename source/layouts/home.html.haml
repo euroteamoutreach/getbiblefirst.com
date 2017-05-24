@@ -1,11 +1,11 @@
 !!!
 %html
   %head
-    = partial "head_contents"
+    = partial "partials/head_contents"
     = javascript_include_tag :bundle
 
   %body{ class: page_classes }
-    = partial "header"
+    = partial "partials/header"
     = yield
-    = partial "universal-footer"
-    = partial "copyright-footer"
+    = partial "partials/universal-footer"
+    = partial "partials/copyright-footer"
