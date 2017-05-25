@@ -91,10 +91,10 @@ Legal
 
 Bible First is a registered trademark of [Euro Team Outreach, Inc.][eto]
 
-Copyright &copy; 2017 by Euro Team Outreach, Inc. Software is licensed under [MIT][license].
+Copyright &copy; 2017 Euro Team Outreach, Inc. Software is licensed under [MIT][license].
 
-[travis-svg]: https://travis-ci.org/joshukraine/getbiblefirst.com.svg?branch=master
-[travis]: https://travis-ci.org/joshukraine/getbiblefirst.com
+[travis-svg]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com.svg?branch=master
+[travis]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com
 [gemnasium-svg]: https://gemnasium.com/badges/github.com/joshukraine/getbiblefirst.com.svg
 [gemnasium]: https://gemnasium.com/github.com/joshukraine/getbiblefirst.com
 [biblefirst]: https://getbiblefirst.com/
@@ -109,4 +109,4 @@ Copyright &copy; 2017 by Euro Team Outreach, Inc. Software is licensed under [MI
 [external-pipeline]: https://middlemanapp.com/advanced/external-pipeline/
 [aws-s3-deployment]: http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html
 [aws-cert-manager]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
-[license]: https://github.com/joshukraine/getbiblefirst.com/blob/master/LICENSE
+[license]: https://github.com/euroteamoutreach/getbiblefirst.com/blob/master/LICENSE
