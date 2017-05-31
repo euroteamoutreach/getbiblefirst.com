@@ -95,8 +95,8 @@ Copyright &copy; 2017 Euro Team Outreach, Inc. Software is licensed under [MIT][
 
 [travis-svg]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com.svg?branch=master
 [travis]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com
-[gemnasium-svg]: https://gemnasium.com/badges/github.com/joshukraine/getbiblefirst.com.svg
-[gemnasium]: https://gemnasium.com/github.com/joshukraine/getbiblefirst.com
+[gemnasium-svg]: https://gemnasium.com/badges/github.com/euroteamoutreach/getbiblefirst.com.svg
+[gemnasium]: https://gemnasium.com/github.com/euroteamoutreach/getbiblefirst.com
 [biblefirst]: https://getbiblefirst.com/
 [eto]: https://euroteamoutreach.org/
 [screenshot]: http://d3lyzr3q25n7t0.cloudfront.net/getbiblefirst-com-screenshot-2016.jpg
