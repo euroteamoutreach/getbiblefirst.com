@@ -1,0 +1,25 @@
+# Total lessons vs. completed lessons for each language
+# Examples:
+#   data.languages.es.name #=> Spanish
+#   data.languages.es.lessons.complete #=> 17
+
+es:
+  name: "Spanish"
+  lessons:
+    total: 20
+    complete: 17
+fr:
+  name: "French"
+  lessons:
+    total: 20
+    complete: 1
+ru:
+  name: "Russian"
+  lessons:
+    total: 20
+    complete: 9
+uk:
+  name: "Ukrainian"
+  lessons:
+    total: 20
+    complete: 3
