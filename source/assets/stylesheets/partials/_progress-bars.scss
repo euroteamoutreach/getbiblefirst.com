@@ -15,12 +15,19 @@
       height: 100%;
       width: 100%;
       line-height: 24px;
+      font-size: 0.75em;
       padding-left: 5px;
       color: #fff;
       animation: 3s progress-bar;
     }
   }
 }
+
+.progress-header {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
 @keyframes progress-bar {
   from {width: 0%; }
   to {width: 100%;}

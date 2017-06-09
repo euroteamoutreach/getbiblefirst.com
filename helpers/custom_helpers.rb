@@ -38,6 +38,10 @@ module CustomHelpers
     end
   end
 
+  def progress_bar(language)
+    "#{language.lessons.complete*5}%"
+  end
+
   # https://robots.thoughtbot.com/organized-workflow-for-svg
   # https://gist.github.com/bitmanic/0047ef8d7eaec0bf31bb
   def inline_svg(filename, options = {})
