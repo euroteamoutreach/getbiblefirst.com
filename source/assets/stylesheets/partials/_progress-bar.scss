@@ -1,15 +1,15 @@
-.progress {
+.progress-bar__container {
   width: 100%;
   height: 30px;
   background: #ddd;
   padding: 3px;
   margin: 10px 0px 20px 0px;
 
-  .progress-wrap {
+  .progress-bar__wrap {
     position: relative;
     height: 100%;
 
-    .progress-bar {
+    .progress-bar__bar {
       position: absolute;
       background: $primary-blue;
       height: 100%;
@@ -23,7 +23,7 @@
   }
 }
 
-.progress-header {
+.progress-bar h5 {
   text-transform: capitalize;
   margin-bottom: 0;
 }
