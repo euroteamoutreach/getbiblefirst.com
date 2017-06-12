@@ -38,8 +38,8 @@ module CustomHelpers
     end
   end
 
-  def progress_bar(language)
-    "#{language.lessons.complete*5}%"
+  def percentage_of(total_lessons, lessons_complete)
+    "#{ ((lessons_complete.to_f / total_lessons.to_f) * 100).to_i}%"
   end
 
   # https://robots.thoughtbot.com/organized-workflow-for-svg
