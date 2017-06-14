@@ -39,7 +39,7 @@ module CustomHelpers
   end
 
   def percentage_of(total_lessons, lessons_complete)
-    "#{ ((lessons_complete.to_f / total_lessons.to_f) * 100).to_i}%"
+    "#{((lessons_complete.to_f / total_lessons.to_f) * 100).to_i}%"
   end
 
   # https://robots.thoughtbot.com/organized-workflow-for-svg
