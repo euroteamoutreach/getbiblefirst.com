@@ -114,4 +114,12 @@ describe CustomHelpers do
       end
     end
   end
+
+  describe "#percentage_of" do
+    it "calculates a percentage and returns it as a string" do
+      total = 20
+      complete = 5
+      expect(percentage_of(total, complete)).to eq("25%")
+    end
+  end
 end
