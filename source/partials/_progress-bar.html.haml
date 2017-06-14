@@ -1,6 +1,10 @@
+:ruby
+  total = language.lessons.total
+  complete = language.lessons.complete
+
 %section.progress-bar
   %h5= language.name
   .progress-bar__container
-    .progress-bar__wrap{ style: "width: #{percentage_of(language.lessons.total, language.lessons.complete)};" }
+    .progress-bar__wrap{ style: "width: #{percentage_of(total, complete)};" }
       .progress-bar__inner
-        = percentage_of(language.lessons.total, language.lessons.complete)
+        = percentage_of(total, complete)
