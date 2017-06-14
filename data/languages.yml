@@ -1,8 +1,3 @@
-- name: "Spanish"
-  lessons:
-    total: 20
-    complete: 17
-
 - name: "French"
   lessons:
     total: 20
@@ -11,7 +6,12 @@
 - name: "Russian"
   lessons:
     total: 20
-    complete: 9
+    complete: 11
+
+- name: "Spanish"
+  lessons:
+    total: 20
+    complete: 15
 
 - name: "Ukrainian (Revision)"
   lessons:
