@@ -1,31 +1,39 @@
-.progress-bar__container {
-  width: 100%;
-  height: 30px;
-  background: #ddd;
-  padding: 3px;
-  margin: 10px 0px 20px 0px;
+.progress-bar {
+  margin-bottom: $base-spacing;
 
-  .progress-bar__wrap {
-    position: relative;
-    height: 100%;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 
-    .progress-bar__bar {
-      position: absolute;
-      background: $primary-blue;
-      height: 100%;
-      width: 100%;
-      line-height: 24px;
-      font-size: 0.75em;
-      padding-left: 5px;
-      color: #fff;
-      animation: 3s progress-bar;
-    }
+  h5 {
+    margin-bottom: 0;
+    text-transform: capitalize;
   }
 }
 
-.progress-bar h5 {
-  text-transform: capitalize;
-  margin-bottom: 0;
+.progress-bar__container {
+  background: darken($subtle-gray, 5%);
+  height: 30px;
+  margin-top: 10px;
+  padding: 3px;
+  width: 100%;
+
+  .progress-bar__wrap {
+    height: 100%;
+    position: relative;
+
+    .progress-bar__inner {
+      animation: 3s progress-bar;
+      background: $primary-blue;
+      color: $white;
+      font-size: 0.75em;
+      height: 100%;
+      line-height: 1.6;
+      padding-left: 5px;
+      position: absolute;
+      width: 100%;
+    }
+  }
 }
 
 @keyframes progress-bar {
