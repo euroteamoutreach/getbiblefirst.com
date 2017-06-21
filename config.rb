@@ -1,7 +1,7 @@
 activate :directory_indexes
 
 set :relative_links, true
-set :haml, { ugly: true, format: :html5 }
+set :haml, { format: :html5 }
 
 # Disable Haml warnings
 Haml::TempleEngine.disable_option_validator!
