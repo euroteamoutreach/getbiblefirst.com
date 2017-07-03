@@ -29,7 +29,8 @@
 %title= full_title(page_title, site_title)
 
 = partial "partials/analytics" if production?
-= tag "link", rel: "icon", type: "image/x-icon", href: image_path("bf-favicon.ico")
+= tag "link", rel: "icon", type: "image/x-icon",
+  href: image_path("b1-favicon.ico")
 = tag "link", rel: "apple-touch-icon", href: image_path("apple-touch-icon.png")
 = stylesheet_link_tag :site
 = javascript_include_tag "https://use.fontawesome.com/6f6b41ef5e.js"
