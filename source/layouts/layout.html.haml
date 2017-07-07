@@ -4,7 +4,7 @@
     = partial "partials/head_contents"
     = javascript_include_tag :bundle, async: !development?
 
-  %body{ class: page_classes }
+  %body{ class: "#{page_classes} has-sticky-footer" }
     = partial "partials/header"
     #content-wrapper
       = yield
