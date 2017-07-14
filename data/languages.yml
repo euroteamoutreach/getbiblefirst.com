@@ -1,7 +1,7 @@
 - name: "French"
   lessons:
     total: 20
-    complete: 1
+    complete: 2
 
 - name: "Russian"
   lessons:
