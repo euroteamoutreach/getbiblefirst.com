@@ -6,12 +6,12 @@
 - name: "Russian"
   lessons:
     total: 20
-    complete: 12
+    complete: 14
 
 - name: "Spanish"
   lessons:
     total: 20
-    complete: 15
+    complete: 20
 
 - name: "Ukrainian (Revision)"
   lessons:
