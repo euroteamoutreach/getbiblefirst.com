@@ -40,3 +40,11 @@
   from {width: 0%; }
   to {width: 100%;}
 }
+
+.translation-status-notes {
+  margin-top: $base-spacing;
+
+  p {
+    font-size: $base-font-size / 1.7;
+  }
+}
