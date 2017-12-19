@@ -1,12 +1,12 @@
 - name: "French"
   lessons:
     total: 20
-    complete: 2
+    complete: 3
 
-- name: "Russian"
+- name: "Russian*"
   lessons:
     total: 20
-    complete: 16
+    complete: 20
 
 - name: "Spanish*"
   lessons:
