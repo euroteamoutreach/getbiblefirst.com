@@ -19,7 +19,7 @@ set :js_dir, "assets/javascripts"
 configure :build do
   activate :external_pipeline,
     name: :gulp,
-    command: "npm run production",
+    command: "yarn production",
     source: ".tmp",
     latency: 1
 
