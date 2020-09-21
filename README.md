@@ -91,7 +91,7 @@ Legal
 
 Bible First is a registered trademark of [Euro Team Outreach, Inc.][eto]
 
-Copyright &copy; 2017 Euro Team Outreach, Inc. Software is licensed under [MIT][license].
+Copyright &copy; 2020 Euro Team Outreach, Inc. Software is licensed under [MIT][license].
 
 [travis-svg]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com.svg?branch=master
 [travis]: https://travis-ci.org/euroteamoutreach/getbiblefirst.com
