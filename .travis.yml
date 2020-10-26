@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-  - "6"
+  - "12"
 
 before_install:
-  - rvm install 2.4.2
+  - rvm install 2.6.6
+  - gem update --system
+  - gem install bundler
 
 install:
   - gem install rainbow -v '2.2.1'
