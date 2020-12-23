@@ -5,13 +5,14 @@ window.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("my-form");
   var button = document.getElementById("my-form-button");
   var status = document.getElementById("my-form-status");
+  const page = (document.getElementsByTagName('h1')[0].innerHTML == 'Contact')
+    ? "contact" : "purchase";
 
   // Success and Error functions for after the form is submitted
 
   function success() {
     form.reset();
-    button.style = "display: none ";
-    status.innerHTML = "Your message was submitted successfully. Thanks!";
+    const url = window.location = `https://getbiblefirst.com/${page}/thanks/`;
   }
 
   function error() {
