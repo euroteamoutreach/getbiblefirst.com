@@ -9,7 +9,8 @@ title: Contact
     We'll do our best to answer you quickly.
 
   .contact-form
-    %form{ action: "https://formspree.io/f/maylleoq", method: "POST" }
+    %form{ action: "https://formspree.io/f/maylleoq", method: "POST",
+           id: "my-form" }
       %input{ name: "full_name", type: "text", required: "",
               placeholder: "Name", maxlength: "100" }
       %input{ name: "_replyto", type: "email", required: "",
@@ -23,4 +24,5 @@ title: Contact
       %input{ name: "_gotcha", style: "display:none", type: "text" }
       %input{ name: "_format", style: "display:none", type: "text",
               value: "plain" }
-      %input{ type: "submit", value: "Send" }
+      %input{ type: "submit", value: "Send", id: "my-form-button" }
+      %p#my-form-status
