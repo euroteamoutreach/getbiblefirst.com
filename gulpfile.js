@@ -84,7 +84,9 @@ gulp.task('js', function() {
     .pipe(p.source('bundle.js'))
     .pipe(production() ? p.buffer() : p.gutil.noop())
     .pipe(production(p.stripDebug()))
-    .pipe(production() ? p.uglify(uglifyOpts) : p.gutil.noop())
+    .pipe(production(p.sourcemaps.init()))
+    .pipe(production(p.terser()))
+    .pipe(production(p.sourcemaps.write()))
     .pipe(gulp.dest(js.out));
 });
 
@@ -126,11 +128,11 @@ gulp.task('production', gulp.series
 // running 'middleman server'
 gulp.task('default', gulp.series('development', function browsersync () {
 
-	p.browserSync.init(serverOpts);
+  p.browserSync.init(serverOpts);
 
-	gulp.watch(css.in, gulp.series('css'));
-	gulp.watch(js.in, gulp.series('js'));
-	gulp.watch(images.in, gulp.series('images'));
+  gulp.watch(css.in, gulp.series('css'));
+  gulp.watch(js.in, gulp.series('js'));
+  gulp.watch(images.in, gulp.series('images'));
 
 }));
 
