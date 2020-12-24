@@ -42,12 +42,6 @@ var
     out: dest + 'assets/javascripts/'
   },
 
-  uglifyOpts = {
-    output: {
-      comments: 'uglify-save-license'
-    }
-  },
-
   images = {
     in: src + 'assets/images/*',
     out: dest + 'assets/images/'

@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
   function success() {
     form.reset();
-    const url = window.location = `https://getbiblefirst.com/${page}/thanks/`;
+    window.location = `https://getbiblefirst.com/${page}/thanks/`;
   }
 
   function error() {
