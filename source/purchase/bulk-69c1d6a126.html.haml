@@ -14,8 +14,8 @@ title: Bulk Orders
     costs.
 
   .bulk-purchase-form
-    %form{ action: "https://formspree.io/#{data.site.orders_email}",
-           method: "POST" }
+    %form{ action: "https://formspree.io/f/mjvppyyv", method: "POST",
+           id: "my-form" }
       %fieldset
         %legend Contact
         %p Provide your contact information.
@@ -53,9 +53,6 @@ title: Bulk Orders
 
       %input{ name: "_subject", type: "hidden",
               value: "[getbiblefirst.com] Bulk Purchase Request" }
-      %input{ name: "_next", type: "hidden",
-              value: "#{data.site.url}/purchase/thanks/" }
       %input{ name: "_gotcha", style: "display:none", type: "text" }
-      %input{ name: "_format", style: "display:none", type: "text",
-              value: "plain" }
-      %input{ type: "submit", value: "Submit" }
+      %input{ type: "submit", value: "Submit", id: "my-form-button" }
+      %p#my-form-status
